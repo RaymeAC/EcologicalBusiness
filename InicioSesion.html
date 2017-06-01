@@ -1,40 +1,65 @@
-<doctyte html>
+<doctype html>
 <html>
-    <head>
-	<meta charset='UTF-8'>
-        <title>Login</title>
-		<style>
-		#inicio{
-		border:1px solid green;
-		width:300px;
-		}
-		p{
+<head>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+
+<style>
+	body{
+		font-family:arial;
+	}
+
+	.formulario{
+		background-color:#D3E8D3;
+		width:50%;
+		border: 1px solid #ccc;
+		margin:auto;
+		margin-top:10%;
+		padding:20px;
 		
-		width:200px;
-		}
-		a{
-		
-		}
-		</style>
-        
-    </head>
-    <body>
-	<section id='inicio'>
+	}
+	label{
+		font-size:16px;
+		width:100%;
+	}
+	input{
+		margin-botton:20px;
+		width:100%;
+		padding:10px;
+		border:1px solid #ccc;
+	}
+	button{
+		position: relative;
+		left:100px;
+	}
+	a{
+		margin-left:30%;
+	}
+
+</style>
+</head>
+<header>
+
+
+</header>
+<body>
+
+<div class="formulario">
 	<form>
-	<h1>Iniciar Sesión</h1>
-		<p>Correo electronico</p>
-            <input type='text' placeholder='usuario' />
-		<p>Contraseña</p>
-		<a href=''> olvidaste tu contraseña?<a/>
-		</br>
-		</br>
-            <input type='password' placeholder='contraseña' />
-			</br>
-			</br>
-			<button onclick='iniciarSesion();'>Iniciar sesión</button>
-		<p>¿No tiene una cuenta?</p>
-		<a href=''>Cree una</a>
-        </form>
-		<section/>
-    </body>
+		<h3>Iniciar sesión</h3>
+		<label>Iniciar sesión</label></br></br>
+		<input type="email" placeholder="Email">
+			</br></br>
+			<label>Contraseña</label>
+			<a href="">¿olvidaste tu contraseña?</a> </br></br>
+		<input type="password" placeholder="contraseña">
+		</br></br>
+		<button>Iniciar sesión</button>
+		</br></br>
+		<label>¿No tiene una cuenta?</label>
+		<a href="">Cree una</a> 
+	</form>
+</div>
+</body>
 </html>
