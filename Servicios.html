@@ -1,28 +1,40 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Prociones</title>
+<title>Servicios</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />-->
+<link href="Servicios.css" rel="stylesheet" type="text/css">
 <style>
-	#contenedor{
+#cabecera{
+    border-bottom: 1px solid #e8e8e8;
+}
+#contenedor{
+	background-image: url('');
 	width:1200px;
 	margin:auto; 
 	}
-	body{
+	#todo{
 	font-family:arial;
-	font-size:14px;
+	font-size:10px;
 	}
 	article{
+	text-align: center;
+    background-color: #fbfbfc;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 30px 0;  
+	}
+	article p{
 	font-size: 32px;
     width: 500px;
-    margin: auto;	
+    margin: auto;
 	}
 	#uno{
 	font-size:20px;
 	border:1px solid;
 	background-color:#E6E6E6;
-	height:500px;
+	height:350px;
+	
 	}
 	#riegoL{
 	width:500px;
@@ -31,6 +43,14 @@
 	}
 	#riegoI{
 	float:left;
+	padding-top:30px;
+	padding-left:200px;
+	}
+	#dos{
+	font-size:20px;
+	border:1px solid;
+	background-color:#E6E6E6;
+	height:350px;
 	}
 	#asesoriaL{
 	width:500px;
@@ -39,57 +59,67 @@
 	}
 	#asesoriaI{
 	float:left;
-	}
-	
-	#dos{
-	font-size:20px;
-	border:1px solid;
-	background-color:#E6E6E6;
-	height:500px;
+	padding-top:30px;
+	padding-left:200px;	
 	}
 	#tres{
 	font-size:20px;
 	border:1px solid;
 	background-color:#E6E6E6;
-	height:500px;
+	height:350px;
 	}
-	
+	#podaL{
+	width:500px;
+	float:left;
+	margin-left:10px;
+	}
+	#podaI{
+	float:left;
+	padding-top:30px;
+	padding-left:200px;
+	}
 </style>
 </head>
-<body>
-<div id='contenedor'>
-<article>
-<p>Te ofrecemos diferentes servicios para el cuidado de tus plantas y asi lograr que tengan un mejor lugar y cuidado que necesitan.
-</p>
-</article>
-<section id='uno'>
-<div id='riegoL'>
-<h1>Riego técnico</h1>
-<p>En EcologicalBusiness tenemos para usted una gran variedad de soluciones para su jardín, gracias a sistemas que garantizan
- una mayor eficiencia el uso de recursos hídricos y un importante ahorro de dinero.Estamos comprometidos con la sostenibilidad y el medio ambiente. 
-Sabemos que cada planta tiene necesidades de riego específicas, es por ello que nuestras soluciones se adaptan a todo tipo de sistemas como jardines,
- techos y muros vivos, terrazas, jardineras y mucho más. </p>
-</div>
-<div id='riegoI'>
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT_sKhDjxIfCgHAPK5KzKtxIB6Cj3W7ewlHdIP5nCR7LnNxWll'width='300' height='300'/>
-</div>
-</section>
-<section id='dos'>
-<div id='asesoriaL'>
-<h1>Asesoria despues de la compra</h1>
-<p>En EcologicalBusiness Nos preocupamos pos su bienestar, por eso le ofresemo asesoria despues que ud realice su compra, nos puede contactar
-via telefono o mediante correo electrónico, ahi e brindaresmos toda la información que ud quiera con respecto a sus plantas </p>
-</div>
-<div id='asesoriaI'>
-<img src='http://www.lbsenergy.com/wp-content/uploads/2013/12/call-center.jpg' width='300' height='300'/></div>
-</section>
-<section id='tres'>
-<div id='poda'>
-<p>Servicio de Poda</p>
-</div>
-<div>
-<img src='http://mlv-s1-p.mlstatic.com/servicio-de-poda-y-tala-de-arboles-510015-MLV25119079994_102016-O.jpg' width='300' height='300'/></div>
-</section>
-</div>
+<header id='cabecera'>
+	<img src='imagenes\logoEco.PNG'/>
+</header>
+<body id='todo'>
+	<div id='contenedor'>
+		<article>
+			<p>Te ofrecemos diferentes servicios para el cuidado de tus plantas y asi lograr que tengan un mejor lugar y cuidado que necesitan.
+			</p>
+		</article>
+		<section id='uno'>
+			<div id='riegoL'>
+			<h1>Riego técnico</h1>
+			<p>En EcologicalBusiness tenemos para usted una gran variedad de soluciones para su jardín, gracias a sistemas que garantizan
+			una mayor eficiencia el uso de recursos hídricos y un importante ahorro de dinero.Estamos comprometidos con la sostenibilidad y el medio ambiente. 
+			Sabemos que cada planta tiene necesidades de riego específicas, es por ello que nuestras soluciones se adaptan a todo tipo de sistemas como jardines,
+			techos y muros vivos, terrazas, jardineras y mucho más. </p>
+			</div>
+			<div id='riegoI'>
+			<img src='https://twenergy-production-files.s3.amazonaws.com/uploads/ckeditor/pictures/1192/original_riego_aspersion.jpg'width='300' height='300'/>
+			</div>
+		</section>
+		<section id='dos'>
+			<div id='asesoriaL'>
+			<h1>Asesoria despues de la compra</h1>
+			<p>En EcologicalBusiness Nos preocupamos pos su bienestar, por eso le ofresemo asesoria despues que ud realice su compra, nos puede contactar
+			via telefono o mediante correo electrónico, ahi e brindaresmos toda la información que ud quiera con respecto a sus plantas </p>
+			</div>
+			<div id='asesoriaI'>
+			<img src='http://www.lbsenergy.com/wp-content/uploads/2013/12/call-center.jpg' width='300' height='300'/></div>
+		</section>
+		<section id='tres'>
+			<div id='podaL'>
+			<h1>Servicio de Poda</h1>
+			<p>EcologicalBusiness te da el mejor servicio de poda para que sus jardines se vean hermoso,
+			Contamos con personal calificado y con experiencia en jardinería. Nuestro personal están debidamente uniformados
+			e identificados y cuentan con comunicación móvil.</p>
+			</div >
+			<div id='podaI'>
+			<img src='http://mlv-s1-p.mlstatic.com/servicio-de-poda-y-tala-de-arboles-510015-MLV25119079994_102016-O.jpg' width='300' height='300'/></div>
+		</section>
+	</div>
 </body>
 </html>
