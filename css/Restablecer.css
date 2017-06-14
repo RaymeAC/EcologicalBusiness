@@ -1,0 +1,33 @@
+body{
+		background-image:url("https://www.giardinaggio.it/giardino/piante-da-giardino/strelitzia_NG1.jpg");
+		
+		font-family: arial;
+		
+		}
+		
+		.formulario{
+		background-color:#D3E8D3;
+		border:2px solid #cccccc;
+		text-align: center; 
+		width:400px;
+		high:500px;
+		margin:auto;
+		margin-top:50px;
+		}
+		.sp1{
+		padding-right : 31px;
+		}
+		.sp2{
+		padding-right:8px;
+		}
+		#header{
+		text-align:center;
+	
+		margin-top:50px;
+		padding:10px;
+		}
+		
+		#P1{
+			text-align:center;
+			
+		}
