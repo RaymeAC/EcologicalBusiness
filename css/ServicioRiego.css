@@ -1,0 +1,41 @@
+#cabecera{
+    border-bottom: 1px solid #e8e8e8;
+}
+#contenedor{
+	background-image: url('');
+	width:1200px;
+	margin:auto; 
+	}
+	#todo{
+	font-family:arial;
+	font-size:10px;
+	}
+	article{
+	text-align: center;
+    background-color: #fbfbfc;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 30px 0;  
+	}
+	article p{
+	font-size: 32px;
+    width: 500px;
+    margin: auto;
+	}
+	#uno{
+	font-size:20px;
+	border:1px solid;
+	background-color:#E6E6E6;
+	height:350px;
+	
+	}
+	#riegoL{
+	width:500px;
+	float:left;
+	margin-left:10px;
+	}
+	#riegoI{
+	float:left;
+	padding-top:30px;
+	padding-left:200px;
+	}
+	
