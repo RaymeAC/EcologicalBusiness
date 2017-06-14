@@ -127,3 +127,36 @@ body{
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
 }
+.frases {
+    clear: both;
+    background-color: rgba(10, 11, 11, 0.12);
+}
+.frases div{
+    padding-top:  10px;
+}
+.frases p1{
+    font-size: 20px;
+    color:#333;
+    text-align: center;
+
+}
+
+
+.frases_izquierda{
+    padding-left: 8%;
+    float: left;
+    border: 1px solid red;
+    width: 25%;
+}
+
+.frases_derecha{
+    float: right;
+    width: 25%;
+    border: 1px solid red;
+    padding-right: 8%;
+}
+.frases_centro{
+    margin-left: 33%;
+    margin-right: 33%;
+    border: 1px solid red;
+}
