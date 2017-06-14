@@ -23,21 +23,62 @@ body{
     width: 110px
 }
 .izquierda  img{
-   width:110px;
+   width:100px;
+   height: 80px;
 }
-.derecha > nav{
-    margin-top: 15px;
-}
+/*menu1*/
+
 .derecha{
-    margin-left: 150px;
     float: right;
+    border: 1px solid blue;
+    width: 50%;
+    margin-top: 10px;
 }
+.derecha > .izquierda_sub{
+    float: left;
+    width: 33%;
+    border: 1px solid red;
+}
+.derecha > .derecha_sub{
+    float: right;
+    width: 33%;
+    border: 1px solid red;
+}
+.derecha > .centro_sub{
+    margin-left: 33%;
+    margin-right: 33%;
+    border: 1px solid red;
+}
+
+.derecha  ul{
+    list-style: none;
+
+
+}
+.derecha li{
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(92, 177, 57, 0.7);
+    border-radius: 10px;
+    border-color: rgba(30, 93, 30, 0.93);
+    font-family: 'Francois One', sans-serif;
+
+
+}
+.derecha a{
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(63, 174, 204, 0.73);
+    background-color: rgba(92, 177, 57, 0.7);
+    border-radius: 25px;
 }
 .menu > li{
     float: left;
@@ -49,11 +90,11 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Francois One', sans-serif;
 }
 .menu > li > a:hover{
     background-color: rgba(69, 95, 101, 0.69);
 }
-/*menu1*/
 
 #centro{
     border: 1px solid red;
@@ -127,33 +168,49 @@ body{
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
 }
-.frases {
-    clear: both;
-    background-color: rgba(10, 11, 11, 0.12);
+
+
+.frases{
+    border: 1px solid red;
+    background-color: rgba(9, 8, 9, 0.07);
+    border-bottom: 1px solid gray;
 }
-.frases div{
-    padding-top:  10px;
+.frases_sub {
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 1px solid blue;
+
 }
-.frases p1{
-    font-size: 20px;
+
+.frases_sub h3{
+    font-size: 16px;
     color:#333;
     text-align: center;
+    margin: 0;
+    font-family: 'Francois One', sans-serif;
+}
+.frases_izquierda, .frases_derecha, .frases_centro{
+    margin-top: 7px;
+   margin-bottom:  7px;
 
+    border: 1px solid red;
+}
+.frases_izquierda, .frases_centro{
+    border-left: 1px solid blue;
 }
 
 
 .frases_izquierda{
-    padding-left: 8%;
     float: left;
     border: 1px solid red;
-    width: 25%;
+    width: 33%;
 }
 
 .frases_derecha{
     float: right;
-    width: 25%;
+    width: 33%;
     border: 1px solid red;
-    padding-right: 8%;
+
 }
 .frases_centro{
     margin-left: 33%;
