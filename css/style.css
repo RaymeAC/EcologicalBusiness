@@ -195,7 +195,11 @@ body{
 .logo-pie{
 	float:left;
 	width:25%;
-	
+	color:white;
+	text-align:center;
+	padding-top:50px;
+	margin:auto;
+	font-size:12px;
 	
 }
 
@@ -213,15 +217,23 @@ body{
 #ligas-pie{
 	margin-left:25%;
 	margin-right:25%;
-
+	 margin-top:50px;
+		
 }
 #ligas-pie > ul > li{
     float: left;
+	text-decoration:none;  
+
+}
+#ligas-pie a{
+	text-decoration:none; 
 	
-    
+	color:white;
+	
 }
 #ligas-pie li{
 	list-style:none;
+	text-decoration:none;  
+	color:#000;
 	
-	color:white;
 }
