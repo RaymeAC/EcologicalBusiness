@@ -2,12 +2,14 @@
     border-bottom: 1px solid #e8e8e8;
 }
 #contenedor{
-	background-image: url('');
+	
 	width:1200px;
+	background-color:#aqua;
 	margin:auto; 
+	border:1px solid red;
 	}
 	#todo{
-	font-family:arial;
+	font-family:cursive;
 	font-size:10px;
 	}
 	article{

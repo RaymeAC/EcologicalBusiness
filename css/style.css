@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
 body{
-    font-family: sans-serif;
+    font-family:cursive;
+
+}
+#contenedor{
+	background-image: url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
+	
+	 background-repeat: repeat-y;
+	 background-size:100% ;
 
 }
 #centro{
     padding-left: 8%;
     padding-right: 8%;
 }
+
 
 /* Estilos header*/
 .header{
@@ -56,7 +64,8 @@ body{
 /*menu1*/
 
 #centro{
-    
+    background:#EAF1EE  ;
+	text-align:center;
 }
 #centro ul{
     list-style: none;
@@ -129,34 +138,90 @@ body{
 }
 .frases {
     clear: both;
-    background-color: rgba(10, 11, 11, 0.12);
+    background: #gray;
+	min-height:500px;
+	
 }
 .frases div{
     padding-top:  10px;
 }
 .frases p1{
     font-size: 20px;
-    color:#333;
+    color:green;
     text-align: center;
-
+	padding:10px;
+	
 }
 
 
 .frases_izquierda{
     padding-left: 8%;
     float: left;
-    border: 1px solid red;
-    width: 25%;
+	background-color: #EAF1EE  ;
+    width: 30%;
+	min-height:50px;
+	border:2px dashed green ;
+	padding:5px;
 }
 
 .frases_derecha{
     float: right;
-    width: 25%;
-    border: 1px solid red;
+    width: 30%;
+    background-color: #EAF1EE  ;
     padding-right: 8%;
+	min-height:50px;
+	border:2px dashed green ;
+	padding:5px;
 }
 .frases_centro{
-    margin-left: 33%;
-    margin-right: 33%;
-    border: 1px solid red;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #EAF1EE  ;
+	min-height:50px;
+	border:2px dashed green ;
+	padding:5px;	
+}
+
+#footer{
+	clear:both;
+	
+	background-color:#000;
+	min-height:170px;
+	padding:10px;
+	width:1038px;
+	margin:auto;
+	
+}
+.logo-pie{
+	float:left;
+	width:25%;
+	
+	
+}
+
+.siguenos{
+	float:right;
+	width:25%;
+	
+	text-align:center;
+	color:white;
+}
+.siguenos li{
+	list-style:none;
+}
+
+#ligas-pie{
+	margin-left:25%;
+	margin-right:25%;
+
+}
+#ligas-pie > ul > li{
+    float: left;
+	
+    
+}
+#ligas-pie li{
+	list-style:none;
+	
+	color:white;
 }
