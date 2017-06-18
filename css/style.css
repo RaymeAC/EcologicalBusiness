@@ -141,7 +141,7 @@ body{
 .banner{
     border: 1px solid red;
     text-align: center;
-    background-image: url("https://www.ecologiaverde.com/wp-content/2014/06/Diferencias-entre-ecologia-y-medio-ambiente.jpg");
+    background-image: url("imagenes/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
