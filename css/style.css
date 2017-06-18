@@ -89,6 +89,7 @@ body{
     float: left;
     
 }
+
 #centro ul li ul{
     display: none; /*hacer no visible*/
     position: absolute; /*amplia el segundo menu sin perjudicar el primero*/
@@ -98,6 +99,7 @@ body{
 .submenu{
     width: 300px;
     border-bottom: 1px solid gray;
+	background-color:white;
 }
 
 #centro li:hover > ul{ /*todos los li: hover que contengan ul*/
