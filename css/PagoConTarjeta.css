@@ -14,7 +14,7 @@ input{
 margin-botton:20px;
 width:100%;
 padding:10px;
-border:1px solid #ccc;
+
 }
 
 #check{
@@ -39,14 +39,8 @@ background-image:url("https://www.giardinaggio.it/giardino/piante-da-giardino/st
 		margin-left:20%;
 		border:1px solid red;
 	}
-/*a > input{
-margin-botton:20px;
-width:100%;
-padding:10px;
-border:1px solid #ccc;
-margin-left: 47%;
-}*/
-	.Registrarse {
+
+.continuar {
 	border: 1px solid #2E86C1;
 	padding:10px;
 	margin-left: 42%;

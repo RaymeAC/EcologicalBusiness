@@ -23,14 +23,7 @@ body{
 		padding:10px;
 		border:1px solid #ccc;
 	}
-	button{
-		position: relative;
-		left:300px;
-	}
-	a{
-		margin-left:30%;
-		
-	}
+	
 	log{
 		text-align:center;
 		border:1px solid red;
@@ -41,4 +34,18 @@ body{
 		margin-top:100px;
 		padding:10px;
 	}
-	
+	a{
+		margin-left:30%;
+		
+	}
+	.IniciarSesion {
+	border: 1px solid #2E86C1;
+	padding:10px;
+	margin-left: 42%;
+	display:inline-block;
+	font: bold 13px Arial;
+	text-decoration:none;
+	color:#FFF;
+	background-color:#5DADE2;
+	border-radius:10px;
+}
