@@ -239,3 +239,40 @@ body{
 	color:#000;
 	
 }
+<!-- CSS para los resvisios -->
+#poda{
+	width:1200px;
+	background-color:#aqua;
+	margin:auto; 
+	}
+	#todo{
+	font-family:cursive;
+	font-size:10px;
+	}
+	article{
+	text-align: center;
+    background-color: #fbfbfc;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 30px 0;  
+	}
+	article p{
+	font-size: 32px;
+    width: 500px;
+    margin: auto;
+	}
+	#tres{
+	font-size:20px;
+	border:1px solid;
+	background-color:#E6E6E6;
+	height:350px;
+	}
+	#Letras{
+	width:500px;
+	float:left;
+	margin-left:10px;
+	}
+	#Imagen{
+	float:left;
+	padding-top:30px;
+	padding-left:200px;
+	}
