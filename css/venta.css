@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+body{
+    font-family:cursive;
+
+}
+#contenedor{
+	background-image: url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
+	
+	 background-repeat: repeat-y;
+	 background-size:100% ;
+
+}
+#centro{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+/* Estilos header*/
+.header{
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100px;
+    clear:both;
+   
+
+}
+.izquierda{
+
+    float: left;
+    width: 110px
+}
+.izquierda  img{
+   width:110px;
+}
+.derecha > nav{
+    margin-top: 15px;
+}
+.derecha{
+    margin-left: 150px;
+    float: right;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(63, 174, 204, 0.73);
+}
+.menu > li{
+    float: left;
+    width: 180px;
+	
+}
+.menu > li > a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+.menu > li > a:hover{
+    background-color: rgba(69, 95, 101, 0.69);
+}
+/*menu1*/
+
+#centro{
+    background:#EAF1EE  ;
+	text-align:center;
+}
+#centro ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /*hace respetar el espacio block*/
+
+}
+
+#centro ul  a{
+    display: block;
+
+    color: #333;
+
+    padding: 12px 17px;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+}
+
+#centro > ul > li{
+    float: left;
+    
+}
+
+#centro ul li ul{
+    display: none; /*hacer no visible*/
+    position: absolute; /*amplia el segundo menu sin perjudicar el primero*/
+    min-width:200px;
+}
+
+.submenu{
+    width: 300px;
+    border-bottom: 1px solid gray;
+	background-color:white;
+}
+
+#centro li:hover > ul{ /*todos los li: hover que contengan ul*/
+    display: block;
+
+    background-color: rgba(85, 85, 85, 0.17);
+}
+.menuVenta{
+	border-color:10px solid red;
+}
+.venta{
+	 margin-left: 10%;
+	 margin-right: 50%;
+    float: center;
+	margin-top:16px;
+	
+}
+.venta .menu > li > a{
+	border-radius:10px;
+	background-color:#53c68c;
+}
+
+
+#footer{
+	clear:both;
+	
+	background-color:#000;
+	min-height:170px;
+	padding:10px;
+	width:1038px;
+	margin:auto;
+	
+}
+.logo-pie{
+	float:left;
+	width:25%;
+	color:white;
+	text-align:center;
+	padding-top:50px;
+	margin:auto;
+	font-size:12px;
+	
+}
+
+.siguenos{
+	float:right;
+	width:25%;
+	
+	text-align:center;
+	color:white;
+}
+.siguenos li{
+	list-style:none;
+}
+
+#ligas-pie{
+	margin-left:25%;
+	margin-right:25%;
+	 margin-top:50px;
+		
+}
+#ligas-pie > ul > li{
+    float: left;
+	text-decoration:none;  
+
+}
+#ligas-pie a{
+	text-decoration:none; 
+	
+	color:white;
+	
+}
+#ligas-pie li{
+	list-style:none;
+	text-decoration:none;  
+	color:#000;
+	
+}
