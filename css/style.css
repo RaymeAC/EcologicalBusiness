@@ -239,15 +239,11 @@ body{
 	color:#000;
 	
 }
-<!-- CSS para los resvisios -->
+/* CSS para los resvisios */
 #poda{
 	width:1200px;
 	background-color:#aqua;
 	margin:auto; 
-	}
-	#todo{
-	font-family:cursive;
-	font-size:10px;
 	}
 	article{
 	text-align: center;
