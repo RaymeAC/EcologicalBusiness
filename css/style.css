@@ -204,8 +204,8 @@ body{
 	text-decoration:none;
 	color:#000;
 }
-/* CSS para los resvisios */
-#poda{
+/* CSS para los servicios */
+#Servicio{
 	width:1200px;
 	background-color:#aqua;
 	margin:auto;
@@ -227,7 +227,7 @@ body{
 	background-color:#E6E6E6;
 	height:350px;
 	}
-	#Letras{
+	#Letras{ /*Modifica el texto escrito*/
 	width:500px;
 	float:left;
 	margin-left:10px;
@@ -245,7 +245,6 @@ body{
 .iniciosesion{
     background-image: url("");
 }
-
 .formulario{
 	background-color:#D3E8D3;
 	width:50%;
@@ -253,6 +252,10 @@ body{
 	margin:auto;
 	margin-top:1%;
 	padding:20px;
+	
+	min-heigh:250 px;
+	
+	text-align:justify;
 }
 label{
 	font-size:16px;
@@ -264,20 +267,17 @@ input{
 	padding:10px;
 	border:1px solid #ccc;
 }
-
 log{
 	text-align:center;
 	border:1px solid red;
 }
 #header_is{
 	text-align:center;
-
 	margin-top:100px;
 	padding:10px;
 }
 .menu_is a{
 	margin-left:30%;
-
 }
 .IniciarSesion {
 	border: 1px solid #2E86C1;
@@ -290,3 +290,35 @@ log{
 	background-color:#5DADE2;
 	border-radius:10px;
 }
+/*Recuperar cuenta*/
+#lugar{
+	border:1px red;
+	text-align:center;
+	
+}
+
+#header{
+		text-align:center;
+	
+		margin-top:50px;
+		padding:10px;
+		}
+/*Restablecer cuenta*/
+.sp1{
+		padding-right : 31px;
+		}
+.sp2{
+		padding-right:8px;
+		}
+	#P1{
+			text-align:center;
+			
+		}
+.volver{
+	margin-left:18%;
+	float:left;
+		}
+.aceptar{
+	float:right;
+	margin-right:18%;
+		}
