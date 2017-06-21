@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+/*Index*/
 body{
     font-family:cursive;
-
-}
+    }
 #contenedor{
 	background-image: url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
-	
+
 	 background-repeat: repeat-y;
 	 background-size:100% ;
 
@@ -14,19 +15,14 @@ body{
     padding-left: 8%;
     padding-right: 8%;
 }
-
-
 /* Estilos header*/
 .header{
     padding-left: 8%;
     padding-right: 8%;
     height: 100px;
     clear:both;
-   
-
 }
 .izquierda{
-
     float: left;
     width: 110px
 }
@@ -61,8 +57,7 @@ body{
 .menu > li > a:hover{
     background-color: rgba(69, 95, 101, 0.69);
 }
-/*menu1*/
-
+/*menu*/
 #centro{
     background:#EAF1EE  ;
 	text-align:center;
@@ -72,44 +67,32 @@ body{
     margin: 0;
     padding: 0;
     overflow: auto; /*hace respetar el espacio block*/
-
 }
-
 #centro ul  a{
     display: block;
-
     color: #333;
-
     padding: 12px 17px;
     text-decoration: none;
     font-family: 'Francois One', sans-serif;
 }
-
 #centro > ul > li{
     float: left;
-    
 }
-
 #centro ul li ul{
     display: none; /*hacer no visible*/
     position: absolute; /*amplia el segundo menu sin perjudicar el primero*/
     min-width:200px;
 }
-
 .submenu{
     width: 300px;
     border-bottom: 1px solid gray;
 	background-color:white;
 }
-
 #centro li:hover > ul{ /*todos los li: hover que contengan ul*/
     display: block;
-
     background-color: rgba(85, 85, 85, 0.17);
 }
-
 .banner{
-
     text-align: center;
     background-image: url("https://www.ecologiaverde.com/wp-content/2014/06/Diferencias-entre-ecologia-y-medio-ambiente.jpg");
     background-repeat: no-repeat;
@@ -117,11 +100,9 @@ body{
     background-size: cover;/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
      la altura del contenido supere la altura de la imagen. */
     min-height: 450px;
-
 }
 /* estilos banner*/
 .textura{
-   
     margin-top:  150px;
     background-color: rgba(15, 17, 15, 0.12);
     padding-left: 8%;
@@ -142,7 +123,7 @@ body{
     clear: both;
     background: #gray;
 	min-height:500px;
-	
+
 }
 .frases div{
     padding-top:  10px;
@@ -152,10 +133,7 @@ body{
     color:green;
     text-align: center;
 	padding:10px;
-	
 }
-
-
 .frases_izquierda{
     padding-left: 8%;
     float: left;
@@ -165,7 +143,6 @@ body{
 	border:2px dashed green ;
 	padding:5px;
 }
-
 .frases_derecha{
     float: right;
     width: 30%;
@@ -181,18 +158,15 @@ body{
     background-color: #EAF1EE  ;
 	min-height:50px;
 	border:2px dashed green ;
-	padding:5px;	
+	padding:5px;
 }
-
 #footer{
 	clear:both;
-	
 	background-color:#000;
 	min-height:170px;
 	padding:10px;
 	width:1038px;
 	margin:auto;
-	
 }
 .logo-pie{
 	float:left;
@@ -202,54 +176,45 @@ body{
 	padding-top:50px;
 	margin:auto;
 	font-size:12px;
-	
 }
-
 .siguenos{
 	float:right;
 	width:25%;
-	
-	text-align:center;
+    text-align:center;
 	color:white;
 }
 .siguenos li{
 	list-style:none;
 }
-
 #ligas-pie{
 	margin-left:25%;
 	margin-right:25%;
-	 margin-top:50px;
-		
+	margin-top:50px;
 }
 #ligas-pie > ul > li{
     float: left;
-	text-decoration:none;  
-
+	text-decoration:none;
 }
 #ligas-pie a{
-	text-decoration:none; 
-	
+	text-decoration:none;
 	color:white;
-	
 }
 #ligas-pie li{
 	list-style:none;
-	text-decoration:none;  
+	text-decoration:none;
 	color:#000;
-	
 }
 /* CSS para los resvisios */
 #poda{
 	width:1200px;
 	background-color:#aqua;
-	margin:auto; 
+	margin:auto;
 	}
 	article{
 	text-align: center;
     background-color: #fbfbfc;
     border-bottom: 1px solid #e8e8e8;
-    padding: 30px 0;  
+    padding: 30px 0;
 	}
 	article p{
 	font-size: 32px;
@@ -272,3 +237,56 @@ body{
 	padding-top:30px;
 	padding-left:200px;
 	}
+
+
+
+
+/*IniciarSesion*/
+.iniciosesion{
+    background-image: url("");
+}
+
+.formulario{
+	background-color:#D3E8D3;
+	width:50%;
+	border: 1px solid #ccc;
+	margin:auto;
+	margin-top:1%;
+	padding:20px;
+}
+label{
+	font-size:16px;
+	width:100%;
+}
+input{
+	margin-botton:20px;
+	width:100%;
+	padding:10px;
+	border:1px solid #ccc;
+}
+
+log{
+	text-align:center;
+	border:1px solid red;
+}
+#header_is{
+	text-align:center;
+
+	margin-top:100px;
+	padding:10px;
+}
+.menu_is a{
+	margin-left:30%;
+
+}
+.IniciarSesion {
+	border: 1px solid #2E86C1;
+	padding:10px;
+	margin-left: 42%;
+	display:inline-block;
+	font: bold 13px Arial;
+	text-decoration:none;
+	color:#FFF;
+	background-color:#5DADE2;
+	border-radius:10px;
+}
