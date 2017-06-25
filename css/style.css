@@ -261,11 +261,11 @@ body{
 	
 	text-align:justify;
 }
-label{
+.menu_is>label{
 	font-size:16px;
 	width:100%;
 }
-input{
+.menu_is>input{
 	margin-botton:20px;
 	width:100%;
 	padding:10px;
@@ -359,7 +359,7 @@ body{
 	min-height:700px;
 	margin:auto; 
 	}
-	a{
+	.contenedorForm>a{
 	float : right;
 
 	}
@@ -378,63 +378,6 @@ body{
 		margin-top:5px;
 		padding:10px;
 		}
-/*estilo Pago con tarjeta*/	
-.formulario1{
-background-color:#D3E8D3;
-width:50%;
-border: 1px solid #ccc;
-margin:auto;
-padding:20px;
-
-}
-label{
-font-size:16px;
-width:100%;
-}
-input{
-margin-bottom:20px;
-width:100%;
-padding:10px;
-
-}
-
-#check{
-margin-left: -45%;
-}
-a{
-margin-left: -47%;
-}
-#body1{
-background-image:url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
-
-	 background-repeat: repeat-y;
-	 background-size:100% ;
-
-}
-#header{
-		text-align:center;
-		margin-top:50px;
-		padding:10px;
-	}
-	p{
-		
-
-		
-		margin-left:5%;
-		
-	}
-
-.continuar1 {
-	border: 1px solid #2E86C1;
-	padding:10px;
-	margin-left: 42%;
-	display:inline-block;
-	font: bold 13px Arial;
-	text-decoration:none;
-	color:#FFF;
-	background-color:#5DADE2;
-	border-radius:10px;
-}
 
 /*estilo recuperar*/	
 		
@@ -514,11 +457,11 @@ background-image:url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAA
 		min-height:700px;
 
 		}
-		label{
+		.Registrarse1>.formulario>label{
 		font-size:16px;
 		width:100%;
 		}
-		input{
+		.Registrarse1>.formulario>nput{
 		margin-botton:20px;
 		width:100%;
 		padding:10px;
@@ -635,21 +578,150 @@ background-image:url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAA
 			text-decoration: none;
 			cursor: pointer;
 		}
+/*pago con tarjeta*/
+.boton_envio input[type=radio]+ a label{
+	cursor:pointer;
+}
 
-  /*estilo venta*/	
-		  .menuVenta{
-			border-color:10px solid red;
-		}
-		.venta{
-			 margin-left: 10%;
-			 margin-right: 50%;
-			float: center;
-			margin-top:16px;
-			
-		}
-		.venta .menu > li > a{
-			border-radius:10px;
-			background-color:#53c68c;
-		}
+
+.paginaCompra {
+	width:99.9%;			
+	margin:0px 0px 0px 0px;	
+	border-radius:15px 15px 0px 0px;	
+}
+.paginaCompra  nav {			
+		width:100%;		
+		border-radius:15px 15px 0px 0px;
+}
+.paginaCompra nav ul{	
+	text-align:center;	
+	background-color:#689C9A;
+	margin:0px;
+	border-radius:15px 15px 0px 0px;
+	padding-top:5px;
+}
+.paginaCompra nav ul li{
+	display:inline-block;	
+	background-color:  #006666;
+	border-radius:6px;
+	margin:1px -3px 0px -3px;
+	padding:5px 1px;
+	
+}
+.paginaCompra nav ul li a{
+	text-decoration:none;
+	color:#FF3300;
+	padding: 5px 60px;	
+	margin:auto;
+	border-radius:6px;
+	font-size:17px;
+	font-family:Verdana;	
+}
+.paginaCompra > nav>ul :hover{
+    background-color:#003300;	
+}
+.botonVenta ul li {	
+	display:inline-block;
+}
+
+
+.botonVenta ul li a{		
+	border: 1px solid #2E86C1;
+	padding:10px;
+	background-color:#5DADE2;
+	border-radius:10px;
+	margin:auto;
+	font: bold 13px Arial;
+	text-decoration:none;
+	color:#FFF;	
+}
+.cancelar{
+	margin-left:24%;
+}
+
+.continuar{
+	margin-left:30%;
+}
+
+/*PagoConTarjeta_envio*/
+.body_envio{
+	width:75%;
+	margin:auto;
+	margin-top:7px;
+}
+.formulario_envio{
+background-color:#D3E8D3;
+width:95.8%;
+border:1px solid #ccc;
+padding:0% 2% 2% 2.09%;
+border-radius:0px 0px 15px 15px;
+}
+
+.formulario_envio>.boton_envio > a{
+	text-decoration:none;
+	color:black;
+	
+}
+.envio{
+	background-color:#D3E8D3;	
+}
+/*PagoConTarjeta_pago*/
+.body_pago{
+	width:90%;
+	margin:auto;
+	margin-top:7px;
+}
+.formulario_pago{
+background-color:#D3E8D3;
+width:95.8%;
+border:1px solid #ccc;
+padding:2%;
+border-radius:0px 0px 15px 15px;
+}
+.pago{
+	background-color:#D3E8D3;
+}
+.formulario_pago>label{
+font-size:16px;
+}
+.formulario_pago>input{
+width:90%;
+padding:8px;
+border-radius:7px;
+}
+/*PagoConTarjeta_confirma*/
+.body_confirma{
+	width:85%;
+	margin:auto;
+	margin-top:7px;
+}
+.formulario_confirma{
+background-color:#D3E8D3;
+width:95.8%;
+border:1px solid #ccc;
+padding:2%;
+border-radius:0px 0px 15px 15px;
+
+}
+.confirma{
+	background-color:#D3E8D3;
+}
+/*PagoConTarjeta_envio_domicilio*/
+.formulario_pago>.lugar_2{
+width:29.7%;
+padding:7px;
+border-radius:7px;
+}
+.label_izquierda{
+	margin-left:11.5%;
+}
+.label_centro{
+	margin-left:20.6%;
+}
+.label_derecha{
+	margin-left:23%;
+}
+/*...........................*/
+
 
 >>>>>>> 083691e8c934c2b6e112a09e0320aa6eef41d707
