@@ -322,3 +322,14 @@ log{
 	float:right;
 	margin-right:18%;
 		}
+/*INFORMACION PARA EL USUARIO*/
+#aviso{
+	
+	width:800px;
+	background-color:#EAF1EE ;
+	border: 2px solid gray;
+	padding:10px;
+	margin:auto;
+	text-align:justify;
+	color:green;
+}		
