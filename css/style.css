@@ -243,7 +243,11 @@ body{
 
 /*IniciarSesion*/
 .iniciosesion{
-    background-image: url("");
+    background-image: url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
+	
+	 background-repeat: repeat-y;
+	 background-size:100% ;
+
 }
 .formulario{
 	background-color:#D3E8D3;
@@ -253,7 +257,7 @@ body{
 	margin-top:1%;
 	padding:20px;
 	
-	min-heigh:250 px;
+	min-height:250 px;
 	
 	text-align:justify;
 }
@@ -322,7 +326,15 @@ log{
 	float:right;
 	margin-right:18%;
 		}
+<<<<<<< HEAD
 /*INFORMACION PARA EL USUARIO*/
+=======
+/*Antiguo aviso delos links del footer*/		
+body{
+	font-family:cursive;
+	
+}
+>>>>>>> 083691e8c934c2b6e112a09e0320aa6eef41d707
 #aviso{
 	
 	width:800px;
@@ -332,4 +344,312 @@ log{
 	margin:auto;
 	text-align:justify;
 	color:green;
+<<<<<<< HEAD
 }		
+=======
+}
+/*estilo condiciones*/	
+
+	
+	.contenedorForm{
+	border:2px solid #cccccc;
+    padding: 0px 30px;
+    text-align: justify; 
+	width:500px;
+	min-height:700px;
+	margin:auto; 
+	}
+	a{
+	float : right;
+
+	}
+	#aceptar{
+	 padding-left: 85%;
+	}
+	#text{
+	background-color:#01DF74;
+	padding: 30px 20px ;
+	
+	color:white;
+	}
+	#header{
+		text-align:center;
+	
+		margin-top:5px;
+		padding:10px;
+		}
+/*estilo Pago con tarjeta*/	
+.formulario1{
+background-color:#D3E8D3;
+width:50%;
+border: 1px solid #ccc;
+margin:auto;
+padding:20px;
+
+}
+label{
+font-size:16px;
+width:100%;
+}
+input{
+margin-bottom:20px;
+width:100%;
+padding:10px;
+
+}
+
+#check{
+margin-left: -45%;
+}
+a{
+margin-left: -47%;
+}
+#body1{
+background-image:url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
+
+	 background-repeat: repeat-y;
+	 background-size:100% ;
+
+}
+#header{
+		text-align:center;
+		margin-top:50px;
+		padding:10px;
+	}
+	p{
+		
+
+		
+		margin-left:5%;
+		
+	}
+
+.continuar1 {
+	border: 1px solid #2E86C1;
+	padding:10px;
+	margin-left: 42%;
+	display:inline-block;
+	font: bold 13px Arial;
+	text-decoration:none;
+	color:#FFF;
+	background-color:#5DADE2;
+	border-radius:10px;
+}
+
+/*estilo recuperar*/	
+		
+.recuperar2{
+  
+	background-image:url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
+	background-repeat: repeat-y;
+	background-size:100% ;
+            }
+ 
+#header3 a{
+	text-align:center;
+	float:left;
+	padding:10px;
+	clear:both;
+	
+}	
+.formulario2{
+    background-color: #D3E8D3;
+    width:400px;
+    margin: auto;
+	min-height:300 px;
+	padding:20px;
+	margin-top:50px;
+	text-align:justify;
+}
+
+#lugar2 {
+	text-align:center;
+}
+
+
+.menu-r{
+	
+	margin-left:30%;
+}
+	
+/*estilo reestablecer*/	
+		
+		
+		.formulario{
+		background-color:#D3E8D3;
+		border:2px solid #cccccc;
+		text-align: center; 
+		width:400px;
+		height:260px;
+		margin:auto;
+		margin-top:50px;
+		}
+		
+	
+		.volver{
+			float:left;
+			
+	
+			border:1px solid red;
+		}
+		.aceptar{
+			
+			margin-left:18%;
+			border:1px solid red;
+		}
+		
+		
+  /*estilo registarse*/	
+		  
+		.Registrarse1{
+		background-image:url("https://www.giardinaggio.it/giardino/piante-da-giardino/strelitzia_NG1.jpg");
+		}
+
+		.formulario{
+		background-color:#D3E8D3;
+		width:50%;
+		border: 1px solid #ccc;
+		margin:auto;
+		padding:20px;
+		min-height:700px;
+
+		}
+		label{
+		font-size:16px;
+		width:100%;
+		}
+		input{
+		margin-botton:20px;
+		width:100%;
+		padding:10px;
+		border:1px solid #ccc;
+		}
+
+		#check{
+		margin-left: -45%;
+		}
+
+		#header{
+				text-align:center;
+				margin-top:50px;
+				padding:10px;
+			}
+			
+		/*a > input{
+		margin-botton:20px;
+		width:100%;
+		padding:10px;
+		border:1px solid #ccc;
+		margin-left: 47%;
+		}*/
+
+		form >  .Registrarse {
+			border: 1px solid #2E86C1;
+			padding:10px;
+			margin:auto;
+			
+			
+			display:inline-block;
+			font: bold 13px Arial;
+			text-decoration:none;
+			color:#FFF;
+			background-color:#5DADE2;
+			border-radius:10px;
+		}
+
+
+		/*Todo para la ventana modal*/
+
+		/*Body*/
+
+		.ficha{
+			 width:1000px;
+			 padding:30px;				
+			 text-align:justify;
+			 margin:auto;
+			 font-family: arial;
+		}
+		.h2{
+			 text-align:left;				
+		}
+		.h3{
+			 font-family: times new roman;
+		}
+		.ficha{					  
+			 padding: 25px;
+			 margin: 10px; 
+		}
+		 
+		/*Click sobre Acepto las Condiciones*/
+		#aceptar2{
+			font-weight: bold;
+			margin-left: -60%;
+		}
+		#aceptar:hover,
+		#aceptar:focus {
+			color: #00008B;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		/* The Modal (background) */
+		.modal {
+			display: none; /* Hidden by default */
+			position: fixed; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			padding-top: 100px; /* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			
+		}
+
+		/* Modal Content */
+		.modal-content {
+			background-color: #fefefe;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%;
+			box-shadow: 10px 10px 15px rgba(127, 122, 122, 0.35);  
+				   
+		}
+
+
+		/* The Close Button */
+		.close {
+			color: #aaaaaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		.close:hover,
+
+		.close:focus {
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+  /*estilo venta*/	
+		  .menuVenta{
+			border-color:10px solid red;
+		}
+		.venta{
+			 margin-left: 10%;
+			 margin-right: 50%;
+			float: center;
+			margin-top:16px;
+			
+		}
+		.venta .menu > li > a{
+			border-radius:10px;
+			background-color:#53c68c;
+		}
+
+>>>>>>> 083691e8c934c2b6e112a09e0320aa6eef41d707
