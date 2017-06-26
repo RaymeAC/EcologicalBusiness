@@ -723,5 +723,16 @@ border-radius:7px;
 }
 /*...........................*/
 
+/*INFORMACION PARA EL CLIENTE*/
+#aviso{
+	
+	width:800px;
+	background-color:#EAF1EE ;
+	border: 2px solid gray;
+	padding:10px;
+	margin:auto;
+	text-align:justify;
+	color:green;
+}
 
 >>>>>>> 083691e8c934c2b6e112a09e0320aa6eef41d707
