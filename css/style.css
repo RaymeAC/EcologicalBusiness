@@ -552,6 +552,46 @@ h3{
 	text-decoration:none;
 	color:#000;
 }
+/* CSS para los promociones */
+	#headerProm{
+		text-align:center;
+}
+	
+	.images{
+		width:178px;
+		height:178px;
+			
+		margin:auto 0px auto 71px;
+	}
+	
+	.p_nombre{
+		text-align:center;
+		position:relative;
+		color: #000000;
+		FONT-SIZE: 9pt;
+		FONT-WEIGHT: 700;
+		font-family:arial;
+		
+	}
+	.span_nombre{
+		 
+		position:absolute; 
+		bottom:0;
+		left:5%;
+		width:300px;
+		top:2px;
+	}
+	
+	.p_precio{
+		text-align:center;
+		position:relative;
+		color:#007746;
+		FONT-SIZE: 9pt;
+		FONT-WEIGHT: 700;
+		
+		top:19px;		
+	}
+	
 /* CSS para los servicios */
 #Servicio{
 	width:1200px;
