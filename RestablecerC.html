@@ -1,43 +1,32 @@
-<!DOCTYPE html>
+<doctype html>
 <html>
 <head>
-<title>Restablecer contraseña</title>
-	<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="shorcut icon" type="image/x-icon" href="imagenes/ico_4.ico"><!--favicon o icono-->
 </head>
-<header id="header">
-	
-	<div id="log"><img height="150"; width="180" src="imagenes/logoEco.png"></div>
-	<link rel="shorcut icon" type="image/x-icon" href="imagenes/ico_4.ico"><!--favicon o icono-->
-</header>
 
-<body class="iniciosesion">
-<div class='formulario'>
-	<form class="menu_is">
-		<h1>Restablecer contraseña</h1>
-		</br>
-		<div>
-			<span class='sp1'>Nueva contraseña:</span>
-			<input type="password" name="palabra" size="26" placeholder="escriba su nueva contraseña"> 
-		</div>
-		</br>
-		<div>
-			<span class='sp2'>Confirmar contraseña: </span>
-			<input type="password" name="palabra" size="26" placeholder="escriba su nueva contraseña">  
-		</div> 
-		<br></br>
-			<a href='RecuperarCuenta.html' class="volver"><input type=button value="volver" /></a>
-		
-			
-			<a href="InicioSesion.html " class="aceptar"> <input type=button value="aceptar"
-			onclick="alert('Su contraseña ha sido restablecida')"></a>
-		
-	
-		<br><br/>
- </form>
- <!--<p id="P1">
-	<a href="Terminos y Condiciones de Uso" > Terminos y Condiciones de Uso </a>
-	</p>-->
-</div>
 
+<body class="body_pago">
+
+<section class="formulario_pago">
+<h2>Restablecer contraseña</h2>		
+		
+			<label>Nueva contraseña:</label>
+			<input type="password" placeholder="escriba su nueva contraseña"> 
+		
+		</br>
+		
+			<label>Confirmar contraseña: </label>
+			<input type="password" placeholder="escriba su nueva contraseña">  
+		
+			 
+<nav class="botonVenta"></br></br>
+	<ul>
+		<li class="cancelar"><a href="RecuperarCuenta.html" target="iframeCentral">Atras</a>
+		<li class="continuar"><a href="InicioSesion.html" target="iframeCentral" onclick="alert('Su contraseña ha sido restablecida')">Aceptar</a></li>
+	</ul>
+</nav>
+</section>
 </body>
 </html>
