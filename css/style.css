@@ -99,7 +99,9 @@ body{
     background-attachment: fixed;
     background-size: cover;/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
      la altura del contenido supere la altura de la imagen. */
-    min-height: 450px;
+    min-height:450px;
+	margin:-10% 1% 0.5% 1%;
+	
 }
 /* estilos banner*/
 .textura{
@@ -107,6 +109,7 @@ body{
     background-color: rgba(15, 17, 15, 0.12);
     padding-left: 8%;
     padding-right: 8%;
+	
 }
 .textura > h1{
     color: #fff;
@@ -121,8 +124,8 @@ body{
 }
 .frases {
     clear: both;
-    background: #gray;
-	min-height:500px;
+    background: #gray;	
+   
 
 }
 .frases div{
@@ -242,90 +245,11 @@ body{
 
 
 /*IniciarSesion*/
-.iniciosesion{
-    background-image: url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
-	
-	 background-repeat: repeat-y;
-	 background-size:100% ;
 
-}
-.formulario{
-	background-color:#D3E8D3;
-	width:50%;
-	border: 1px solid #ccc;
-	margin:auto;
-	margin-top:1%;
-	padding:20px;
-	
-	min-height:250 px;
-	
-	text-align:justify;
-}
-.menu_is>label{
-	font-size:16px;
-	width:100%;
-}
-.menu_is>input{
-	margin-botton:20px;
-	width:100%;
-	padding:10px;
-	border:1px solid #ccc;
-}
-log{
-	text-align:center;
-	border:1px solid red;
-}
-#header_is{
-	text-align:center;
-	margin-top:100px;
-	padding:10px;
-}
-.menu_is a{
-	margin-left:30%;
-}
-.IniciarSesion {
-	border: 1px solid #2E86C1;
-	padding:10px;
-	margin-left: 42%;
-	display:inline-block;
-	font: bold 13px Arial;
-	text-decoration:none;
-	color:#FFF;
-	background-color:#5DADE2;
-	border-radius:10px;
-}
 /*Recuperar cuenta*/
-#lugar{
-	border:1px red;
-	text-align:center;
-	
-}
 
-#header{
-		text-align:center;
-	
-		margin-top:50px;
-		padding:10px;
-		}
 /*Restablecer cuenta*/
-.sp1{
-		padding-right : 31px;
-		}
-.sp2{
-		padding-right:8px;
-		}
-	#P1{
-			text-align:center;
-			
-		}
-.volver{
-	margin-left:18%;
-	float:left;
-		}
-.aceptar{
-	float:right;
-	margin-right:18%;
-		}
+
 <<<<<<< HEAD
 /*INFORMACION PARA EL USUARIO*/
 =======
@@ -349,157 +273,40 @@ body{
 =======
 }
 /*estilo condiciones*/	
+.body_condicion{
+	
+	margin:auto;
+	
+}
 
-	
-	.contenedorForm{
-	border:2px solid #cccccc;
-    padding: 0px 30px;
-    text-align: justify; 
-	width:500px;
-	min-height:700px;
-	margin:auto; 
-	}
-	.contenedorForm>a{
-	float : right;
-
-	}
-	#aceptar{
-	 padding-left: 85%;
-	}
-	#text{
-	background-color:#01DF74;
-	padding: 30px 20px ;
-	
-	color:white;
-	}
-	#header{
-		text-align:center;
-	
-		margin-top:5px;
-		padding:10px;
-		}
+.body_condicion{
+	width:90%;
+	margin:auto;
+	margin-top:7px;
+}
 
 /*estilo recuperar*/	
 		
-.recuperar2{
-  
-	background-image:url("http://1.bp.blogspot.com/-0gYowGFmHkQ/TmPdtS17f-I/AAAAAAAALKI/ZuocwLMuk2Y/s1600/fotos_paisajes+bonitos.jpg");
-	background-repeat: repeat-y;
-	background-size:100% ;
-            }
- 
-#header3 a{
-	text-align:center;
-	float:left;
-	padding:10px;
-	clear:both;
+.body_recuperacion{
+	width:37%;
+	margin:auto;
 	
-}	
-.formulario2{
-    background-color: #D3E8D3;
-    width:400px;
-    margin: auto;
-	min-height:300 px;
-	padding:20px;
-	margin-top:50px;
-	text-align:justify;
+}
+.cancelar_r{
+	margin-left:13.5%;
 }
 
-#lugar2 {
-	text-align:center;
-}
-
-
-.menu-r{
-	
+.continuar_r{
 	margin-left:30%;
 }
 	
 /*estilo reestablecer*/	
 		
-		
-		.formulario{
-		background-color:#D3E8D3;
-		border:2px solid #cccccc;
-		text-align: center; 
-		width:400px;
-		height:260px;
-		margin:auto;
-		margin-top:50px;
-		}
-		
-	
-		.volver{
-			float:left;
-			
-	
-			border:1px solid red;
-		}
-		.aceptar{
-			
-			margin-left:18%;
-			border:1px solid red;
-		}
-		
+
 		
   /*estilo registarse*/	
 		  
-		.Registrarse1{
-		background-image:url("https://www.giardinaggio.it/giardino/piante-da-giardino/strelitzia_NG1.jpg");
-		}
-
-		.formulario{
-		background-color:#D3E8D3;
-		width:50%;
-		border: 1px solid #ccc;
-		margin:auto;
-		padding:20px;
-		min-height:700px;
-
-		}
-		.Registrarse1>.formulario>label{
-		font-size:16px;
-		width:100%;
-		}
-		.Registrarse1>.formulario>nput{
-		margin-botton:20px;
-		width:100%;
-		padding:10px;
-		border:1px solid #ccc;
-		}
-
-		#check{
-		margin-left: -45%;
-		}
-
-		#header{
-				text-align:center;
-				margin-top:50px;
-				padding:10px;
-			}
-			
-		/*a > input{
-		margin-botton:20px;
-		width:100%;
-		padding:10px;
-		border:1px solid #ccc;
-		margin-left: 47%;
-		}*/
-
-		form >  .Registrarse {
-			border: 1px solid #2E86C1;
-			padding:10px;
-			margin:auto;
-			
-			
-			display:inline-block;
-			font: bold 13px Arial;
-			text-decoration:none;
-			color:#FFF;
-			background-color:#5DADE2;
-			border-radius:10px;
-		}
-
+		
 
 		/*Todo para la ventana modal*/
 
@@ -585,8 +392,8 @@ body{
 
 
 .paginaCompra {
-	width:99.9%;			
-	margin:0px 0px 0px 0px;	
+	width:100%;			
+	
 	border-radius:15px 15px 0px 0px;	
 }
 .paginaCompra  nav {			
@@ -622,21 +429,25 @@ body{
 }
 .botonVenta ul li {	
 	display:inline-block;
+	
 }
-
+.botonVenta ul  {	
+	margin:auto;
+	
+}
 
 .botonVenta ul li a{		
 	border: 1px solid #2E86C1;
 	padding:10px;
 	background-color:#5DADE2;
 	border-radius:10px;
-	margin:auto;
+	
 	font: bold 13px Arial;
 	text-decoration:none;
 	color:#FFF;	
 }
 .cancelar{
-	margin-left:24%;
+	margin-left:20%;
 }
 
 .continuar{
@@ -645,13 +456,13 @@ body{
 
 /*PagoConTarjeta_envio*/
 .body_envio{
-	width:75%;
+	width:65%;
 	margin:auto;
 	margin-top:7px;
 }
 .formulario_envio{
 background-color:#D3E8D3;
-width:95.8%;
+
 border:1px solid #ccc;
 padding:0% 2% 2% 2.09%;
 border-radius:0px 0px 15px 15px;
@@ -667,16 +478,16 @@ border-radius:0px 0px 15px 15px;
 }
 /*PagoConTarjeta_pago*/
 .body_pago{
-	width:90%;
+	width:60%;
 	margin:auto;
 	margin-top:7px;
 }
 .formulario_pago{
 background-color:#D3E8D3;
-width:95.8%;
 border:1px solid #ccc;
 padding:2%;
 border-radius:0px 0px 15px 15px;
+
 }
 .pago{
 	background-color:#D3E8D3;
@@ -685,19 +496,15 @@ border-radius:0px 0px 15px 15px;
 font-size:16px;
 }
 .formulario_pago>input{
-width:90%;
+width:100%;
 padding:8px;
 border-radius:7px;
 }
 /*PagoConTarjeta_confirma*/
-.body_confirma{
-	width:85%;
-	margin:auto;
-	margin-top:7px;
-}
+
 .formulario_confirma{
 background-color:#D3E8D3;
-width:95.8%;
+
 border:1px solid #ccc;
 padding:2%;
 border-radius:0px 0px 15px 15px;
@@ -708,7 +515,7 @@ border-radius:0px 0px 15px 15px;
 }
 /*PagoConTarjeta_envio_domicilio*/
 .formulario_pago>.lugar_2{
-width:29.7%;
+width:32.9%;
 padding:7px;
 border-radius:7px;
 }
@@ -721,7 +528,13 @@ border-radius:7px;
 .label_derecha{
 	margin-left:23%;
 }
-/*...........................*/
+/*verdes ambiente*/
+.body_verdes{
+	width:98%;
+	margin:auto;	
+	height:580px;
+	
+}
 
 /*INFORMACION PARA EL CLIENTE*/
 #aviso{
