@@ -5,6 +5,11 @@
 /*INDEX*/
 body{
     font-family: sans-serif;
+	background-image:url("http://www.wallpaperbetter.com/wallpaper/130/95/644/butterfly-on-blue-stones-2K-wallpaper-middle-size.jpg");
+	background-repeat:repeat-y;
+	background-size:100%;
+	width:1200px;
+	margin:auto;
 }
 #centro{
     padding-left: 8%;
@@ -21,9 +26,12 @@ body{
 
 }
 .header .izquierda{
-    border: 1px solid white;
+    border: 1px solid gray;
     float: left;
-    width: 110px
+    width: 110px;
+	background-color:white;
+	
+	
 }
 .header .izquierda  img{
    width:110px;
@@ -139,7 +147,7 @@ body{
     text-shadow: 5px 5px 5px black;
 }
 .frases{
-    background-color: rgba(9, 8, 9, 0.07);
+    background-color: #28E43C;
     border-top:  3px solid rgba(222, 151, 85, 0.91);
     border-bottom: 1.5px solid gray;
 }
@@ -190,7 +198,9 @@ h3{
 .buscador_izquierda{
     float: left;
     width: 40%;
-    text-align: center;
+    text-align: justify;
+	
+	margin-left:-50px;
 
 }
 .buscador_derecha{
@@ -219,9 +229,10 @@ h3{
 .buscador_derecha fieldset{
 
     background: #fff;
-    border: 1px solid #333;
+    border: 1px solid #000;
     border-radius: 5px;
-      padding: 0 0 0 40px;
+    padding: 0 0 0 40px;
+	
 }
 .buscador_derecha input, .buscador_derecha button{
     position: relative;
@@ -232,7 +243,7 @@ h3{
 
 }
 .buscador_derecha input{
-    color: #666;
+    color: #fff;
     border: none;
     z-index: 2;
 }
@@ -240,7 +251,7 @@ h3{
     font-size: 1.4m;
     width: 50px;
     border: none;
-    background: #333;
+    background: #000;
     float: right;
     transform: translate(-100px,0);
     transition-duration: .3s;
@@ -264,7 +275,7 @@ h3{
     transform: translate(0,0);
     transition-duration: .3s;
 }
-..buscador_derecha input:focus + button .fa{
+.buscador_derecha input:focus + button .fa{
     color:#fff;
     transform: translate(0,0);
     transition-duration: .5s;
@@ -278,7 +289,10 @@ h3{
 .buscador_derecha > h7{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-
+	border:2px solid white;
+	padding:10px 30px;
+	color:white;
+	font-size:30px;
 
 }
 
@@ -289,18 +303,16 @@ h3{
     margin-right: 8%;
 }
 
-
-
-
 /*Menu centro */
 .izq_categoria{
     float: left;
-    width: 20%;
-    border: 0.5px solid white;
+    width: 18%;
     text-align: center;
+	margin:auto;
+	height:200px;
 }
 .izq_categoria nav{
-
+	
 }
 .izq_categoria ul {
     list-style: none;
@@ -466,11 +478,14 @@ h3{
     padding-top: 0.5px;
     margin-left: 33%;
     text-align: center;
+	width:1200px;
+	
 }
 .menu_nosotros{
     clear: both;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 0;
+    padding-right: 0;
+	/*background-color:#D0FA58;*/
 }
 .der_nosotros > h4 {
     margin: 20px ;
@@ -481,20 +496,21 @@ h3{
 
 .izq-publicidad{
     margin-top: 15px;
+	border:1px solid blue;
 }
 
 .productos-des{
-     border: 1px solid red;
-
+     border: 1px solid gray;
+	width:700px;
      margin-top: 15px;
 }
 .productos-des div{
 
-    border: 1px solid red;
+    border: 1px solid gray;
 }
 .pro-izq{
     float: left;
-    width: 47.5%;
+    width: 10%;
 }
 .pro-der{
     margin-left: 52.5%;
@@ -513,7 +529,7 @@ h3{
 	background-color:#000;
 	min-height:170px;
 	padding:10px;
-	width:1038px;
+	
 	margin:auto;
 }
 .logo-pie{
@@ -922,10 +938,10 @@ border-radius:7px;
 }
 /*proteccion*/
 .body_proteccion{
-width:100%;
+	width:100%;
 	margin:auto;	
 	height:580px;
-	background-color:#D3E8D3;
+	background-color:#000;
 	
 }
 /*legal*/
