@@ -5,20 +5,21 @@
         <meta charset="utf-8">
         <title>Ecological Business</title>
         <link rel="stylesheet" href="css/style.css">
+		<!--<script type="text/javascript" src="js/index.js"></script>-->
     </head>
     <body id="contenedor">
         <header class="header">
            <div class="izquierda">
-               <nav>
+               <nav>--
                    <a href="Index.html"><img src="https://www.freelogoservices.com/api/main/ph/zjHl2lgef9cYrQL0JFa7kzbw2vuCpBRLnhzM0Dd9OXdE9g5shnN1i...Bv9ettdV9dsBUGw0pY"></a>
                </nav>
            </div>
            <div class="derecha">
                <nav>
                <ul class="menu">
-                   <li><a href="#">Inicio</a></li>
-                   <li><a href="#">Ingresar</a></li>
-                   <li><a href="#">Registrarse</a></li>
+                   <li><a href="Index.html">Inicio</a></li>
+                   <li><a href="InicioSesion.html" target="iframeCentral">Ingresar</a></li>
+                   <li><a href="Registrarse.html" target="iframeCentral">Registrarse</a></li>
                </ul>
             </nav>
            </div>
@@ -33,12 +34,12 @@
 					</li>
                    <li> <a  href="#">Servicios</a>
                        <ul class="uls">
-                           <li class="submenu"><a href="">Asesoria Post-Compra</a></li>
-                           <li class="submenu"><a href="">Servicio Poda</a></li>
-                           <li class="submenu"><a href="">Riego Técnico</a></li>
+                           <li class="submenu"><a  href="ServicioAsesoria.html" target="iframeCentral">Asesoria Post-Compra</a></li>
+                            <li class="submenu"><a href="ServicioPoda.html" target="iframeCentral">Servico de Poda</a></li>
+                            <li class="submenu"><a href="ServicioRiego.html" target="iframeCentral">Riego Tecnico</a></li>
                        </ul>
                    </li>
-                   <li><a href="#">Como funciona</a>
+                   <li><a href="ComoFunciona.html"target="iframeCentral">Como funciona</a>
                        <ul class="uls" >
                            <li class="submenu"><a href="">Qué planta estas buscando</a></li>
                            <li class="submenu"><a href="">Plantas con mayor demanda</a></li>
@@ -58,27 +59,19 @@
                    </li>
                </ul>
    </nav>
-   <section class="banner">
-       <div class="textura">
-           <h1>Verdes del medio ambriente</h1>
-           <h2>¿Qué necesitas comprar?</h2>
-       </div>
-   </section>
-   <aside class="frases">
-       <div class="frases_sub">
-           <div class="frases_izquierda">
-               <h3>Encuentra el mejor servicio para
-                   <br>cubir las necesidades de tu hogar.</h3>
-           </div>
-           <div class="frases_derecha">
-               <h3>Toda la información que necesitas
-                   <br>al alcance de tus manos.</h3>
-           </div>
-           <div class="frases_centro">
-               <h3>Trabajamos contigo, porque queremos
-                   <br>que seas parte de nosotros.</h3>
-           </div>
-   </aside>
+    <div class="ventanaPrincipal">			
+		<section>
+			<div class="ventana_iframe">
+				<iframe  frameborder="0px" width="100%" height="580px" name="iframeCentral"  src="verdes_ambiente.html">		
+		
+				</iframe>
+				<!--id="mainframe" onload="if (window.parent && window.parent.autoIframe) 
+				{window.parent.autoIframe('mainframe');}"-->
+
+			</div>
+			
+		</section>
+	 </div>
    <section class="buscador">
        <section class="buscador_izquierda">
            <img src="http://www.euroresidentes.com/amor/todo-sobre-amor/wp-content/uploads/sites/6/2015/06/web-buscar-pareja-consejos1.jpg" alt=""><br>
@@ -209,14 +202,14 @@
 		<section id="ligas-pie">
 				<p>
 				<ul>
-                     <li> <a href="AvisoLegal.html">Aviso legal |</a>|</li>
-                    <li> <a href="Protecciondatos.html">Proteccion de datos |</a>|</li>
-                    <li> <a href="MapaWeb">Mapa web |</a>|</li>
+                      <li> <a href="AvisoLegal.html" target="iframeCentral">Aviso legal |</a>|</li>
+                    <li> <a href="Protecciondatos.html" target="iframeCentral">Proteccion de datos |</a>|</li>
+                    <li> <a href="MapaWeb.html" target="iframeCentral" >Mapa web |</a>|</li>
                     <li> <a href="index.html">Ecological business |</a>|</li>
-					<li> <a href="Contactenos.html">Contactenos |</a>|</li>
-					<li> <a href="Acercade.html">Acerca de |</a>|</li>
-					<li> <a href="Ayuda.html">Ayuda |</a>|</li>
-					<li> <a href="CalidadServicio.html">Calidad Del Servicio </a></li>
+					<li> <a href="Contactenos.html" target="iframeCentral">Contactenos |</a>|</li>
+					<li> <a href="Acercade.html" target="iframeCentral">Acerca de |</a>|</li>
+					<li> <a href="Ayuda.html" target="iframeCentral">Ayuda |</a>|</li>
+					<li> <a href="CalidadServicio.html" target="iframeCentral">Calidad Del Servicio </a></li>
                 </ul>
 				</p>
 			</section>

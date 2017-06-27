@@ -920,6 +920,29 @@ border-radius:7px;
 	height:580px;
 
 }
-
-
->>>>>>> 083691e8c934c2b6e112a09e0320aa6eef41d707
+/*proteccion*/
+.body_proteccion{
+width:100%;
+	margin:auto;	
+	height:580px;
+	background-color:#D3E8D3;
+	
+}
+/*legal*/
+.body_legal{
+	width:65%;
+	margin:auto;	
+	height:350px;
+	background-color:#D3E8D3;
+	padding:25px;
+	
+}
+/*calidad*/
+.body_calidad {
+	width:65%;
+	margin:auto;	
+	height:350px;
+	background-color:#D3E8D3;
+	padding:40px;
+	font-size:20px;
+}
