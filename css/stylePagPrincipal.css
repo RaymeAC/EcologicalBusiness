@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One');
+/*INDEX*/
+body{
+    font-family: sans-serif;
+}
+#centro{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+    /*Estilos header*/
+.header{
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100px;
+    clear:both;
+    border: 1px solid white;
+
+
+}
+.header .izquierda{
+    border: 1px solid white;
+    float: left;
+    width: 110px
+}
+.header .izquierda  img{
+   width:110px;
+}
+.header .derecha > nav{
+    margin-top: 15px;
+}
+.header .derecha{
+    margin-left: 150px;
+    float: right;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.menu > li{
+    float: left;
+    width: 150px;
+
+      background-color:#A9C52F   ;
+}
+.menu > li > a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu > li > a:hover{
+    background-color: rgba(42, 180, 97, 0.93);
+}
+/*menu1*/
+
+#centro{
+    border: 1px solid white;
+}
+#centro ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /*hace respetar el espacio block*/
+
+}
+
+#centro ul  a{
+    display: block;
+
+    color: #000;
+
+    padding: 12px 17px;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+}
+#centro li{
+    background-color: #fff;
+}
+
+#centro > ul > li{
+    float: left;
+
+}
+#centro ul li ul{
+    display: none; /*hacer no visible*/
+    position: absolute; /*amplia el segundo menu sin perjudicar el primero*/
+    min-width:200px;
+}
+
+.submenu{
+    width: 300px;
+    border-bottom: 1px solid gray;
+}
+
+#centro li:hover > ul{ /*todos los li: hover que contengan ul*/
+    display: block;
+}
+#centro .uls .submenu a:hover{
+    background-color: rgba(18, 17, 19, 0.21);
+}
+
+
+.banner{
+
+    border-top:  3px solid rgba(222, 151, 85, 0.91);
+    text-align: center;
+    background-image: url("https://www.ecologiaverde.com/wp-content/2014/06/Diferencias-entre-ecologia-y-medio-ambiente.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+     la altura del contenido supere la altura de la imagen. */
+    min-height: 450px;
+
+}
+/* estilos banner*/
+.textura{
+    border: 1px solid white;
+    margin-top:  150px;
+    background-color: rgba(15, 17, 15, 0.12);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.textura > h1{
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 1.5px solid black;
+    text-shadow: 5px 5px 5px black;
+}
+.textura > h2{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+}
+.frases{
+    background-color: rgba(9, 8, 9, 0.07);
+    border-top:  3px solid rgba(222, 151, 85, 0.91);
+    border-bottom: 1.5px solid gray;
+}
+.frases_sub {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.frases_sub h3{
+    font-size: 16px;
+    color:#333;
+}
+.frases_izquierda, .frases_derecha, .frases_centro{
+
+   margin-bottom:  7px;
+   text-align: center;
+}
+h3{
+    margin-bottom: 7px;
+}
+
+.frases_izquierda{
+    padding-left: 8%;
+    float: left;
+	width: 30%;
+	min-height:50px;
+    margin: auto;
+    padding: 10px;
+    border-right: 1.5px solid gray;
+}
+
+.frases_derecha{
+    float: right;
+    width: 30%;
+    padding-right: 8%;
+	min-height:50px;
+	padding:5px;
+
+    border-left:  1.5px solid gray;
+    margin: auto;
+}
+.frases_centro{
+    margin-left: 35%;
+    margin-right: 35%;
+    min-height:50px;
+	padding:5px;
+}
+/*Buscador */
+.buscador_izquierda{
+    float: left;
+    width: 40%;
+    text-align: center;
+
+}
+.buscador_derecha{
+    margin-left: 40%;
+    text-align: center;
+    padding-top: 10px;
+    padding-top: 50px;
+
+}
+.bd_izquierda{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+/*Estilo de buscador*/
+.bd_derecha{
+    margin-left: 50%;
+     margin-top: 30px;
+}
+.buscador_derecha form{
+    width: 300px;
+    margin:  auto;
+    background: #fff;
+
+}
+.buscador_derecha fieldset{
+
+    background: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 0 0 0 40px;
+}
+.buscador_derecha input, .buscador_derecha button{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+
+
+}
+.buscador_derecha input{
+    color: #666;
+    border: none;
+    z-index: 2;
+}
+.buscador_derecha button{
+    font-size: 1.4m;
+    width: 50px;
+    border: none;
+    background: #333;
+    float: right;
+    transform: translate(-100px,0);
+    transition-duration: .3s;
+}
+.fa-search{
+    color: #bbb;
+    transform: translate(-150px,0);
+    transition: all .1s ease-in-out;
+    font-size: 20px;
+}
+.fa-cart-plus{
+    color: #bbb;
+    transform: translate(-150px,0);
+    transition: all .1s ease-in-out;
+    font-size: 20px;
+}
+ .buscador_derecha input:focus{
+    outline: none;
+}
+.buscador_derecha input:focus + button{
+    transform: translate(0,0);
+    transition-duration: .3s;
+}
+.buscador_derecha input:focus + button .fa{
+    color:#fff;
+    transform: translate(0,0);
+    transition-duration: .5s;
+}
+.buscador_izquierda > img{
+    width: 300px;
+    margin-top: 15px;
+
+
+}
+.buscador_derecha > h7{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+
+}
+
+.buscador{
+    clear: both;
+
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+
+
+/*Menu centro */
+.izq_categoria{
+    float: left;
+    width: 20%;
+    border: 0.5px solid white;
+    text-align: center;
+}
+.izq_categoria nav{
+
+}
+.izq_categoria ul {
+    list-style: none;
+
+}
+.izq_categoria li{
+    padding-top: 10%;
+    width: 280px;
+    height: 30px;
+
+
+    text-align: left;
+    padding-left: 25px;
+
+}
+.true-ul li{
+    background-color: rgba(136, 138, 137, 0.75);
+}
+.izq_categoria a{
+    text-decoration: none;
+    color: white;
+}
+.true-ul li:hover{
+    background-color: #A9C52F    ;
+}
+
+.ul-cat li{
+
+    background-color: #A9C52F;
+    padding-bottom: 15px;
+}
+
+.cat{
+    color: #fff;
+    font-family: 'Bowlby One', cursive;
+    text-shadow: 3px 3px 3px black;
+    font-size: 20PX;
+}
+/*menu derecha*/
+
+.arriba{
+    width: 745px;
+    min-height: 428px;
+     overflow: hidden; /* los elementos que esten fuera no se ven*/
+}
+.arriba ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    /*animation*/
+    animation: cambio 20s infinite alternate linear;
+}
+
+.arriba li{
+    list-style:  none;
+
+    /*animation*/
+    width: 100%;
+
+
+}
+.arriba img{
+    /*animation*/
+    width: 100%;
+    height: 435px;
+
+}
+
+
+.arriba_1{
+    margin-top: -20px;
+    width: 745px;
+    overflow: hidden; /* los elementos que esten fuera no se ven*/
+
+    margin-bottom: -6px;
+}
+.arriba_1 ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    /*animation*/
+    animation: cambio1 15s infinite alternate linear;
+}
+
+.arriba_1 li{
+    list-style:  none;
+
+    /*animation*/
+    width: 100%;
+
+
+}
+.arriba_1 img{
+    /*animation*/
+    width: 100%;
+    height: 190px;
+
+}
+/*animation*/
+@keyframes cambio {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+@keyframes cambio1 {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+/*links*/
+.abajo-links{
+    width: 745px;
+
+}
+.abajo-links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.abajo-links ul > li{
+    float: left;
+    width: 248px;
+    background-color: #A9C52F    ;
+}
+.abajo-links ul > li > a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+      font-family: 'Francois One', sans-serif;
+
+}
+.abajo-links ul > li > a:hover{
+    background-color: rgba(42, 180, 97, 0.93);
+}
+
+
+/*derecha*/
+
+.der_nosotros{
+    padding-top: 0.5px;
+    margin-left: 33%;
+    text-align: center;
+}
+.menu_nosotros{
+    clear: both;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.der_nosotros > h4 {
+    margin: 20px ;
+    font-size: 50px;
+    color:#368C72;
+    font-family: 'Chewy', cursive;
+}
+
+.izq-publicidad{
+    margin-top: 15px;
+}
+
+.productos-des{
+     border: 1px solid red;
+
+     margin-top: 15px;
+}
+.productos-des div{
+
+    border: 1px solid red;
+}
+.pro-izq{
+    float: left;
+    width: 47.5%;
+}
+.pro-der{
+    margin-left: 52.5%;
+}
