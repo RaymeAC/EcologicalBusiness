@@ -500,3 +500,48 @@ h3{
 .pro-der{
     margin-left: 52.5%;
 }
+
+
+#footer{
+	clear:both;
+	background-color:#000;
+	min-height:170px;
+	padding:10px;
+	
+	margin:auto;
+}
+.logo-pie{
+	float:left;
+	width:25%;
+	color:white;
+	text-align:center;
+	padding-top:50px;
+	margin:auto;
+	font-size:12px;
+}
+.siguenos{
+	float:right;
+	width:25%;
+    text-align:center;
+	color:white;
+}
+.siguenos li{
+	list-style:none;
+}
+#ligas-pie{
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:50px;
+}
+#ligas-pie > ul > li{
+    float: left;
+	text-decoration:none;
+}
+#ligas-pie a{
+	text-decoration:none;
+	color:white;
+}
+#ligas-pie li{
+	list-style:none;
+	text-decoration:none;
+	color:#000;
