@@ -114,7 +114,7 @@ body{
     background-image: url("https://www.ecologiaverde.com/wp-content/2014/06/Diferencias-entre-ecologia-y-medio-ambiente.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+    background-size: cover;/* La imagen de fondo estï¿½ fija en el viewport, de modo que no se mueva cuando
      la altura del contenido supere la altura de la imagen. */
     min-height: 450px;
 
@@ -485,13 +485,12 @@ h3{
 }
 
 .productos-des{
-     border: 1px solid red;
+
 
      margin-top: 15px;
 }
 .productos-des div{
 
-    border: 1px solid red;
 }
 .pro-izq{
     float: left;
@@ -500,6 +499,50 @@ h3{
 .pro-der{
     margin-left: 52.5%;
 }
+.pro1, .pro2  {
+    position: relative;
+    border: 1px solid gray;
+
+}
+.pro1 img,  .pro2 img, .pro3 img, .pro4 img{
+    width: 100%;
+
+}
+.pro3, .pro4{
+    margin-top: 10px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+
+.producto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(11, 12, 13, 0.31);
+    width: 60%;
+    height: 83%;
+    padding-top: 11%;
+
+
+}
+.titulo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+
+    font-family: 'Francois One', sans-serif;
+}
+.descripcion{
+    font-size: 17px;
+
+}
 
 
 #footer{
@@ -507,7 +550,7 @@ h3{
 	background-color:#000;
 	min-height:170px;
 	padding:10px;
-	
+
 	margin:auto;
 }
 .logo-pie{
