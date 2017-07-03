@@ -380,11 +380,12 @@ border-radius:7px;
 }
 /*legal*/
 .body_legal{
-	width:65%;
+	width:99%;
 	margin:auto;	
-	height:350px;
+	
 	background-color:#D3E8D3;
-	padding:25px;
+	padding:10px;
+	font-size:30px;
 	
 }
 /*calidad*/
@@ -417,4 +418,84 @@ border-radius:7px;
 		font-family: Rockwell;
 		padding: 25px 120px;
 
+}
+
+/*ventana modal o emergente*/
+
+
+.modal{
+    width: 100%;
+    
+    position:absolute;
+    background: rgba(0,0,0,0.8);
+    bottom:0;
+    left: 0;
+    display: flex;
+    opacity: 1;
+
+}
+.contenido{
+    margin-top:2%; 
+    padding:10px;
+    width: 90%;
+
+    margin:auto;
+    background: #D3E8D3;
+    border-radius: 10px;
+}
+#cerrar{
+display: none;
+}
+#cerrar + label a{
+    position:fixed;
+    color:#fff;
+    font-size: 19px;
+    z-index:50;
+    background:#AD0000;
+    height: 25px;
+    line-height: 24px;
+    border-radius: 9%;
+    right:35px;
+    cursor: pointer;
+    padding: 0px 3px;
+    margin-top:20px;
+    margin-right:10px; 
+    text-decoration:none;
+
+}
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+    display: none;
+}
+/*Servicios*/
+.contenido_servicios{
+	 margin-top:2%; 
+    padding:10px;
+    width: 90%;
+
+    margin:auto;
+    border-radius: 10px;
+}
+
+/*Recuperacion de cuenta*/
+.contenido_recuperacion{
+	
+    padding:10px;
+    width: 45%;
+
+    margin:auto;
+    border-radius: 10px;
+
+}
+/*registro*/
+.contenido_registro{
+	
+    padding:10px;
+    width: 80%;
+
+    margin:auto;
+    border-radius: 10px;
+
+}
+.loginn{
+	margin-left:237px;
 }
