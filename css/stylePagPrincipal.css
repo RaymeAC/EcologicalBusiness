@@ -16,12 +16,11 @@ body{
     padding-right: 8%;
     height: 100px;
     clear:both;
-    border: 1px solid white;
-
+    background-color: #A9C52F ;
 
 }
 .header .izquierda{
-    border: 1px solid white;
+
     float: left;
     width: 110px
 }
@@ -54,9 +53,13 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+.borde{
+    border-right: 1.7px solid rgba(16, 15, 18, 0.64);
 }
 .menu > li > a:hover{
-    background-color: rgba(42, 180, 97, 0.93);
+    background-color: rgba(75, 73, 73, 0.37);
 }
 /*menu1*/
 
@@ -299,6 +302,7 @@ h3{
     width: 20%;
     border: 0.5px solid white;
     text-align: center;
+
 }
 .izq_categoria nav{
 
@@ -540,14 +544,39 @@ h3{
 
 }
 .publi1{
-	width: 100%;
+     padding-left: 35px;
+     min-width: 100%;
+     cursor: pointer;
+
+}
+.publi1 img, .publi2 img, .publi3 img {
+   width: 312px;
+   border: 2px solid gray;
 }
 .publi2{
+    margin-top: 15px;
+      padding-left: 35px;
 	width: 100%;
+    cursor: pointer;
 }
-.publi2{
+.publi3{
+    margin-top: 15px;
+   padding-left: 35px;
 	width: 100%;
+    cursor: pointer;
 }
+.publi4{
+    margin-top: 15px;
+   padding-left: 35px;
+	width: 100%;
+    cursor: pointer;
+}
+.publi4 img{
+    width: 312px;
+    height: 317px;
+      border: 2px solid gray;
+}
+
 
 
 
