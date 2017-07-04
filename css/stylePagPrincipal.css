@@ -506,7 +506,7 @@ h3{
 .pro1, .pro2  {
     position: relative;
     border: 1px solid gray;
-		width:88%;
+		width:95%;
 
 
 }
@@ -519,7 +519,7 @@ h3{
     margin-top: 15px;
     position: relative;
     border: 1px solid gray;
-	width:88%;
+	width:95%;
 
 }
 .producto{
@@ -544,14 +544,18 @@ h3{
 
 }
 .publi1{
+    margin-top:15px;
      padding-left: 35px;
      min-width: 100%;
      cursor: pointer;
 
 }
 .publi1 img, .publi2 img, .publi3 img {
-   width: 312px;
+
    border: 2px solid gray;
+   width: 180px;
+   height: 210px;
+   margin-left: 30%;
 }
 .publi2{
     margin-top: 15px;
@@ -572,7 +576,7 @@ h3{
     cursor: pointer;
 }
 .publi4 img{
-    width: 312px;
+    width: 280px;
     height: 317px;
       border: 2px solid gray;
 }
