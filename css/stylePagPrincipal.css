@@ -7,25 +7,32 @@ body{
     font-family: sans-serif;
 }
 #centro{
-    padding-left: 8%;
-    padding-right: 8%;
+    margin-left: 8%;
+
 }
     /*Estilos header*/
 .header{
-    padding-left: 8%;
-    padding-right: 8%;
+
+
     height: 100px;
     clear:both;
     background-color: #A9C52F ;
+    margin: 0;
+    padding: 0;
+    top:0;
+
+    width: 100%;
+
 
 }
-.header .izquierda{
+.izquierda{
 
     float: left;
     width: 110px
 }
-.header .izquierda  img{
+.izquierda  img{
    width:110px;
+   margin-left: 20%;
 }
 .header .derecha > nav{
     margin-top: 15px;
@@ -321,9 +328,14 @@ h3{
     padding-left: 25px;
 
 }
+
+.true-ul .uno1{
+    background-color: #A9C52F;
+}
 .true-ul li{
     background-color: rgba(136, 138, 137, 0.75);
 }
+
 .izq_categoria a{
     text-decoration: none;
     color: white;
@@ -630,3 +642,28 @@ h3{
 	list-style:none;
 	text-decoration:none;
 	color:#000;
+}
+
+
+/*plantas exterior*/
+.arriba_texto{
+    margin-top: 3%;
+    text-align: left;
+}
+.arriba_texto h12{
+    font-size: 40px;
+    text-align: left;
+
+}
+.arriba_texto p{
+    line-height: 2em;
+     font-size: 15px;
+
+}
+.arriba_plantas td{
+       min-width: 50px;
+}
+
+.uno1{
+    background-color:#A9C52F
+}
