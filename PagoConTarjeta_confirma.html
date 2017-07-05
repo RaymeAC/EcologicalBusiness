@@ -5,6 +5,33 @@
   <link rel="stylesheet" href="css/stylePagPrincipal.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="shorcut icon" type="image/x-icon" href="imagenes/ico_4.ico"><!--favicon o icono-->
+
+<style>
+	.formulario_pago input{
+		width: 10%;
+		margin:10px;
+	}
+	.formulario_pago button{
+		margin:10px;
+	}
+	.botonVenta{
+		margin-left:-15%;
+	}
+	.botonVenta ul li a{
+		padding: 5px 20px;
+	}
+   .continuar{
+   	margin-left: 20%;
+   }
+  .derecha{
+  	float:right;
+  	margin-top: -25%;
+  }
+  .izquierda{
+  	float: left;
+  }
+
+</style>
 </head>
 
 
@@ -13,24 +40,34 @@
 	<section class="paginaCompra">
                 <nav>
 					<ul >
-						<li><a href="PagoConTarjeta_envio.html" target="iframeCentral">Envio</a></li>
-						<li><a href="PagoConTarjeta_pago.html" target="iframeCentral"> Pago </a></li>
 						<li><a href="PagoConTarjeta_confirma.html " target="iframeCentral" class="confirma">Revisa y confirma</a></li>
+						<li><a href="PagoConTarjeta_pago.html" target="iframeCentral"> Pago </a></li>
+						<li><a href="PagoConTarjeta_envio.html" target="iframeCentral">Envio</a></li>
+						
 					</ul>
 				</nav>
 
 	</section>
 <section class="formulario_pago">
-	<h4>Gracias por su preferencia...</h4>
-	<p>
-	.</br>
-	.</br>
-	.</br>
-	</p>
+<div class="izquierda">
+	<h2>Gracias por su preferencia...</h2></br>
+
+	<label>Ingrese la cantidad que desea comprar: </label>
+	<input   type="number" placeholder=" ">
+
+<button onclick="alert('Su producto fue agregado a la canastilla de compra satisfactoriamente')">Guardar</button></br></br>
+
+	<label>¿Desea añadir otro producto a su compra?</label></br></br></br>
+</div>
+</br></br>
+<div class="derecha">
+<img class="imagen" src="https://www.promokod.com.ua/content/images/blog/images/Screen%20Shot%202014-03-26%20at%2013.16.36.png" alt="" width="200"  height="250">
+</div>
 <nav class="botonVenta">
 	<ul>
-		<li class="cancelar"><a href="PagoConTarjeta_pago.html" target="iframeCentral" >Atras</a></li>
-		<li class="continuar"><a href="index.html"  onclick="alert('Su compra se realizó satisfactoriamente')" target="_top">Continuar</a></li>
+
+		<li class="cancelar"><a href="index.html" target="iframeCentral" >si</a></li>
+		<li class="continuar"><a href="PagoConTarjeta_pago.html"  >no</a></li>
 	</ul>
 </nav>
 

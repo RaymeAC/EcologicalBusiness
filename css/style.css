@@ -220,6 +220,8 @@ body{
 			text-decoration: none;
 			cursor: pointer;
 		}
+
+
 /*pago con tarjeta*/
 .boton_envio input[type=radio]+ a label{
 	cursor:pointer;
@@ -246,7 +248,7 @@ body{
 	display:inline-block;
 	background-color:  #006666;
 	border-radius:6px;
-	margin:1px -3px 0px -3px;
+	margin:15px -3px 0px -3px;
 	padding:5px 1px;
 
 }
@@ -266,8 +268,12 @@ body{
 	display:inline-block;
 
 }
+.botonVenta{
+	padding-bottom:3px;
+}
 .botonVenta ul  {
 	margin:auto;
+	padding-top: 10px;
 
 }
 
@@ -291,15 +297,15 @@ body{
 
 /*PagoConTarjeta_envio*/
 .body_envio{
-	width:65%;
+	width:67%;
 	margin:auto;
-	margin-top:7px;
+	margin-top:10px;
 }
 .formulario_envio{
 background-color:#D3E8D3;
 
 border:1px solid #ccc;
-padding:0% 2% 2% 2.09%;
+padding:0% 2% 3% 2.09%;
 border-radius:0px 0px 15px 15px;
 }
 
@@ -320,7 +326,7 @@ border-radius:0px 0px 15px 15px;
 .formulario_pago{
 background-color:#D3E8D3;
 border:1px solid #ccc;
-padding:2%;
+padding:2% 5% 10% 5%;
 border-radius:0px 0px 15px 15px;
 
 }
@@ -351,14 +357,14 @@ border-radius:0px 0px 15px 15px;
 /*PagoConTarjeta_envio_domicilio*/
 .formulario_pago>.lugar_2{
 width:32.9%;
-padding:7px;
+padding:10px;
 border-radius:7px;
 }
 .label_izquierda{
-	margin-left:11.5%;
+	margin-left:9%;
 }
 .label_centro{
-	margin-left:20.6%;
+	margin-left:19%;
 }
 .label_derecha{
 	margin-left:23%;
@@ -423,26 +429,21 @@ border-radius:7px;
 /*ventana modal o emergente*/
 
 
-.modal{
+.ventModal{
+
     width: 100%;
-    
-    position:absolute;
-    background: rgba(0,0,0,0.8);
-    bottom:0;
-    left: 0;
-    display: flex;
-    opacity: 1;
+	height: 100%;
+	position:fixed;
+	top:-100%;
+	left:0px;
+	background-color:rgba(0,0,0,0.5);   
+	-webkit-transition:all 1s;
 
 }
-.contenido{
-    margin-top:2%; 
-    padding:10px;
-    width: 90%;
-
-    margin:auto;
-    background: #D3E8D3;
-    border-radius: 10px;
+#activaModal:checked ~ .ventModal{                /*alt+126*/
+top:0%;
 }
+
 #cerrar{
 display: none;
 }
@@ -498,4 +499,48 @@ display: none;
 }
 .loginn{
 	margin-left:237px;
+}
+/*Proteccion de datos*/
+.modal{
+    width: 100%;
+    
+    position:absolute;
+    background: rgba(0,0,0,0.8);
+    bottom:0;
+    left: 0;
+    display: flex;
+    opacity: 1;
+
+}
+.contenido{
+    margin-top:2%; 
+    padding:20px;
+    width: 90%;
+	color:white;
+    margin:auto;
+    background: #177D66;
+    border-radius: 10px;
+}
+#cerrar{
+display: none;
+}
+#cerrar + label a{
+     position:fixed;
+    color:#fff;
+    font-size: 19px;
+    z-index:50;
+    background:#AD0000;
+    height: 25px;
+    line-height: 24px;
+    border-radius: 9%;
+    right:35px;
+    cursor: pointer;
+    padding: 0px 3px;
+    margin-top:20px;
+    margin-right:10px; 
+    text-decoration:none;
+
+}
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+    display: none;
 }

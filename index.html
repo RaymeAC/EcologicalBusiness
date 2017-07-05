@@ -5,6 +5,7 @@
         <title>Ecological Business</title>
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/stylePagPrincipal.css">
+
     </head>
     <body>
         <header class="header">
@@ -23,35 +24,187 @@
             </div>
         </header>
     <nav id="centro">
-                <ul>
-                    <li><a href="Index.html">Inicio</a></li>
-                    <li> <a  href="#">Servicios</a>
+    <input type="checkbox" name="activaVentana_contacto_1" id="activaVentana_contacto_1">
+     <input type="checkbox" name="activaVentana_ayuda_1" id="activaVentana_ayuda_1">
+     <input type="checkbox" name="activaVentana_postCompra" id="activaVentana_postCompra">
+     <input type="checkbox" name="activaVentana_poda" id="activaVentana_poda">
+     <input type="checkbox" name="activaVentana_tecnico" id="activaVentana_tecnico">
+     <input type="checkbox" name="activaVentana_como" id="activaVentana_como">
+     <input type="checkbox" name="activaVentana_confia" id="activaVentana_confia">
+     <input type="checkbox" name="activaVentana_equipo" id="activaVentana_equipo">
+                <ul>                    
+                     <li > <label for="" id=""> Inicio</label></li>
+                     <li > <label for="" id=""> Servicios</label>
+                    
                         <ul class="uls">
-                            <li class="submenu"><a href="ServicioAsesoria.html">Asesoria Post-Compra</a></li>
-                            <li class="submenu"><a href="ServicioPoda.html">Servicio Poda</a></li>
-                            <li class="submenu"><a href="ServicioRiego.html">Riego Técnico</a></li>
+                        
+                             <li class="submenu" > <label for="activaVentana_postCompra" id="abreModal"> Asesoria Post-Compra</label></li>                        
+                             <li class="submenu" > <label for="activaVentana_poda" id="abreModal"> Servicio Poda</label></li> 
+                            <li class="submenu" > <label for="activaVentana_tecnico" id="abreModal"> Servicio Técnico</label></li> 
                         </ul>
                     </li>
-                    <li><a href="ComoFunciona.html">Como funciona</a>
+                    
+                    <li > <label for="activaVentana_como" id="abreModal"> Cómo funciona</label></li>
                         <!--<ul class="uls" >
                             <li class="submenu"><a href="">Qué planta estas buscando</a></li>
                             <li class="submenu"><a href="">Plantas con mayor demanda</a></li>
                         </ul>-->
-                    </li>
-                    <li><a href="">Porqué Ecological Business </a>
+                    <li > <label for="" id=""> Por qué Ecological Business</label>                    
                         <ul class="uls" >
-                            <li class="submenu"><a href="CalidadServicio.html">Confia en Ecological Business</a></li>
-                            <li class="submenu"><a href="ComoFunciona.html">Equipo de EB</a></li>
+                            
+                            <li class="submenu" > <label for="activaVentana_confia" id="abreModal"> Confia en Ecological Busines</label></li> 
+                            <li class="submenu" > <label for="activaVentana_equipo" id="abreModal"> Equipo de EB</label></li> 
+                            
                         </ul>
                     </li>
-                    <li><a href="">Ayuda</a>
-                        <ul class="uls" >
-                            <li class="submenu"><a href="Ayuda.html">Preguntas frecuentes</a></li>
-                            <li class="submenu"><a href="Contactenos.html">Contacto</a></li>
+                   
+                    <li > <label for="" id=""> Ayuda</label>   
+
+                        <ul class="uls" >                              
+                            <li class="submenu" > <label for="activaVentana_ayuda_1" id="abreModal"> Preguntas frecuentes</label></li>                          
+                            <li class="submenu"> <label for="activaVentana_contacto_1" id="abreModal"> Contactenos</label></li> 
                         </ul>
                     </li>
                 </ul>
-    </nav>
+
+<!--ayuda-->
+ <div class="ventanaModal_ayuda_1">
+    <label for="activaVentana_ayuda_1" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+ <h1>Ayuda</h1>
+    <h3>¿Nesecito registrame en EcologicalBusiness?</h3>
+    <p>Puedes buscar anuncios y ver las promociones en la página, pero si quieres hacer el pedido de algún servicio o comprara algunos de nuestros productos
+      que la pagina muestres, entonces deberás regístrate rápidamente haciendo click <a href="Registrarse.html"><strong>aqui</strong></a></p>
+    <h3>¿Qué tipos de pago puedo hacer al comprar una palta o solicitar un servicio?</h3>
+    <p>Al iniciar una compra online eligiendo al producto ya sea en catalogo o en promoción, podrá realizar diferentes pagos con tarjeta
+      o en efectivo al momento que recibe en su casa</p>
+    </div>
+</div>
+
+            <!--contactenos-->
+ <div class="ventanaModal_contacto_1">
+    <label for="activaVentana_contacto_1" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+
+     <h1>Contactenos</h1>
+    <p >
+     En Ecological Business, crecer y mejorar son metas que solo podremos alcanzar gracias a sus aportes,
+      opiniones, reclamos y sugerencias. Por favor contáctese con nuestro Departamento de Servicio al Cliente,
+      donde será atendido con la rapidez, calidez y profesionalismo que distingue a nuestro personal.
+
+      Ecological Business, trabajamos continuamente por su salud y bienestar porque usted es lo más valioso.
+
+      Si desea ser atendido por alguno de nuestros especialistas, llame a los telófonos:
+      <b>315 9000 y opción 3</b>.
+
+      Si lo prefiere puede escribirnos a nuestro correo electrónico:
+      <b>Ecological_Business@gmail.com.pe</b></p>
+    </div>
+</div> 
+
+<!--asesoria post-compra-->
+ <div class="ventanaModal_postCompra">
+    <label for="activaVentana_postCompra" id="cierraModal"> cerrar </label>     
+   <div class="contenido_servicios"> 
+   <article>
+      <p>Te ofrecemos diferentes servicios para el cuidado de tus plantas y asi lograr que tengan un mejor lugar y cuidado que necesitan.
+      </p>
+    </article>
+    
+    <section id='tres'>
+      <div id='Letras'>
+      <h2>Asesoria despues de la compra</h2>
+      <p>En EcologicalBusiness Nos preocupamos pos su bienestar, por eso le ofrecemos asesoría después que usted realice su compra, nos puede contactar
+      vía teléfono o mediante correo electrónico, ahí e brindaremos toda la información que usted desee con respecto a sus plantas</p>
+      </div>
+      <div >
+      <img src='http://www.aerojet.com.ve/wp-content/uploads/2014/09/Imagen3.jpg' width='300' height='300'/>
+      </div>
+    </section>
+   </div>
+    </div>
+<!--poda-->
+ <div class="ventanaModal_poda">
+    <label for="activaVentana_poda" id="cierraModal"> cerrar </label>     
+   <div class="contenido_servicios"> 
+    <article>
+      <p>Te ofrecemos diferentes servicios para el cuidado de tus plantas y asi lograr que tengan un mejor lugar y cuidado que necesitan.
+      </p>
+    </article >
+    <section id='tres'>
+      <div id='Letras'>
+      <h1>Servicio de Poda</h1>
+      <p>EcologicalBusiness te da el mejor servicio de poda para que sus jardines se vean hermoso,
+      Contamos con personal calificado y con experiencia en jardinería. Nuestro personal están debidamente uniformados
+      e identificados y cuentan con comunicación móvil.</p>
+      </div >
+      <div >
+      <img src='http://mlv-s1-p.mlstatic.com/servicio-de-poda-y-tala-de-arboles-510015-MLV25119079994_102016-O.jpg' width='300' height='300'/></div>
+    </section>
+   </div>
+    </div>
+    <!--servicio tecnico-->
+ <div class="ventanaModal_tecnico">
+    <label for="activaVentana_tecnico" id="cierraModal"> cerrar </label>     
+   <div class="contenido_servicios"> 
+    <article >
+      <p>Te ofrecemos diferentes servicios para el cuidado de tus plantas y asi lograr que tengan un mejor lugar y cuidado que necesitan.
+      </p>
+    </article>
+    <section id='tres'>
+      <div id='Letras'>
+      <h1>Riego técnico</h1>
+      <p>En EcologicalBusiness tenemos para usted una gran variedad de soluciones para su jardín, gracias a sistemas que garantizan
+      una mayor eficiencia el uso de recursos hídricos y un importante ahorro de dinero.Estamos comprometidos con la sostenibilidad y el medio ambiente. 
+      Sabemos que cada planta tiene necesidades de riego específicas, es por ello que nuestras soluciones se adaptan a todo tipo de sistemas como jardines,
+      techos y muros vivos, terrazas, jardineras y mucho más. </p>
+      </div>
+      <div >
+      <img src='https://twenergy-production-files.s3.amazonaws.com/uploads/ckeditor/pictures/1192/original_riego_aspersion.jpg'width='300' height='300'/>
+      </div>
+    </section>  
+   </div>
+    </div>
+    <!--como funciona-->
+ <div class="ventanaModal_como">
+    <label for="activaVentana_como" id="cierraModal"> cerrar </label>     
+   <div class="contenido_modal">
+    <h1>Como Funciona</h1>
+  <p>Ecological Business es un portal donde encontraras variedad de planta, estas podrán ser adquiridas por Ud. También podrá encontrar diferentes servicios que te ayudaran a tener en buen estados tus jardines, te ofrecemos servicios como Riego Técnico, el cual se encarga de implementar la nueva tecnología para que los plantas sean regadas
+  correctamente,Otro de los servicios es La asesoría después de hacer tu compra, aquí te instruiremos para que tengas la mejor información y los cuidados que necesita la
+  planta comprada y por último tenemos el servicio de poda donde Ud. podrá hacernos una llamada y le indicaremos la hora que se realizarón dicho servicio. Para que Ud. pueda
+  comprar o solicitar algún servicio visto en nuestra web primero deberá estar logueado(a) con su usuario y contraseña y así nosotros tendremos sus datos para mayor conformidad.</p>
+   </div>
+    </div>
+            <!--Confia en Ecological business-->
+ <div class="ventanaModal_confia">
+    <label for="activaVentana_confia" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+<h1>Confia en Nosotros</h1>
+    <p >Somos una empresa reponsable, decidos a brindarte la mejor atencion haciendo tus sueños realidad, te asesoramos en el cuidado de tus plantas
+        y te brindamos nuestros dias de las mejores ofertas.</p>
+    </div>
+</div> 
+            <!--Confia en Ecological business-->
+ <div class="ventanaModal_equipo">
+    <label for="activaVentana_equipo" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+<h1>Equipo de Ecological Business</h1>
+    <p >Toda la produccion de Ecological Bussines se comercializa a traves de nuestra pagina EcologicalBussines.com el cual se encuentra bajo la responsabidad de un grupo de
+    jovenes universitarios amantes de la naturaleza, preocupados por incentivar el cultivo de plantas y poder ayudar en la reduccion de contaminacion
+    de nuestro planeta, apoyandonos en la frase "Siembra una planta, siembra vida"..</p>
+    </div>
+</div> 
+
+
+
+
+</nav>
+
+
+
+ <!--.............................................-->  
+    
     <section class="banner">
         <div class="textura">
             <h1>Verdes del medio ambriente</h1>
@@ -256,22 +409,124 @@
 
      </div>
      <section id="ligas-pie">
-             <p>
+     <input type="checkbox" name="activaVentana_legal" id="activaVentana_legal">
+     <input type="checkbox" name="activaVentana_web" id="activaVentana_web">
+      <input type="checkbox" name="activaVentana_contacto" id="activaVentana_contacto">
+      <input type="checkbox" name="activaVentana_ayuda" id="activaVentana_ayuda">
+      <input type="checkbox" name="activaVentana_calidad" id="activaVentana_calidad">
+    
+             
              <ul>
-                  <li> <a href="AvisoLegal.html">Aviso legal |</a>|</li>
-                 <li> <a href="Protecciondatos.html">Proteccion de datos |</a>|</li>
-                 <li> <a href="MapaWeb.html">Mapa web |</a>|</li>
+                  <li > <label for="activaVentana_legal" id="abreModal"> Abrir Modal |</label>|</li>
+                 <li> <a href="Protecciondatos.html" >Proteccion de datos |</a>|</li>
+                 <li > <label for="activaVentana_web" id="abreModal"> Mapa Web|</label>|</li>                 
                  <li> <a href="index.html">Ecological business |</a>|</li>
-                 <li> <a href="Contactenos.html">Contactenos |</a>|</li>
-                 <li> <a href="Acercade.html">Acerca de |</a>|</li>
-                 <li> <a href="Ayuda.html">Ayuda |</a>|</li>
-                 <li> <a href="CalidadServicio.html">Calidad Del Servicio </a></li>
+                 <li > <label for="activaVentana_contacto" id="abreModal"> Contactenos|</label>|</li> 
+                 <!--<li> <a href="Acercade.html">Acerca de |</a>|</li>-->
+                 <li > <label for="activaVentana_ayuda" id="abreModal"> Ayuda|</label>|</li> 
+                  <li > <label for="activaVentana_calidad" id="abreModal"> Calidad de Servicio|</label>|</li> 
+
              </ul>
-             </p>
+             
+
+<!--VENTANAS MODALES !!!!!!!!!!!!!-->
+
+<!--aviso legal-->
+
+
+     <div class="ventanaModal_legal">
+    <label for="activaVentana_legal" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+
+    <h1>Aviso Legal</h1>
+    <p>  La presente web tiene por objeto facilitar al público en general, el conocimiento de las actividades que realiza 
+    y de los servicios que presta Ecological Business , transmitiendo, en su caso, las solicitudes de compra a los 
+    servicios comerciales que la respaldan.
+
+    El acceso a la web de Ecological Business, atribuye a quien lo efectúa la condición de usuario del servicio (en adelante,
+    el "Usuario")
+    e implica la aceptación plena y sin reservas de todos los términos y condiciones incluidos en este Aviso Legal según se 
+    encuentren vigentes en el momento mismo en que el Usuario acceda a la web de Ecological Business.
+
+    Ecological Business se reserva la facultad de efectuar, en cualquier momento y sin necesidad de previo aviso, 
+    modificaciones respecto
+    a la información contenida en el Sitio o en la configuración y presentación del presente TEXTO LEGAL, así como sus 
+    términos y condiciones. Las modificaciones que se hagan, una vez incorporadas en la página web de Ecological Business, 
+    producirán efectos en forma inmediata.</p>
+    </div>
+</div>
+
+<!--aviso legal-->
+
+ <div class="ventanaModal_web">
+    <label for="activaVentana_web" id="cierraModal"> cerrar </label>
+    <div class="contenido_web">
+
+     <h1>Mapa Web</h1>
+    <p>Ecological Business S.A.A., con domicilio principal en la Avenida La molina N° 1155 de la ciudad de Lima, 
+    en adelante Ecological Business, informa a sus usuarios del portal Ecological Business.com, en adelante los usuarios; que las 
+    empresa Ecological Business, al cual pertenece, respetan la legislación vigente en materia de protección 
+    de datos personales y la privacidad de los usuarios, de conformidad con la Ley N° 29733, Ley de Protección 
+    de Datos Personales, en adelante la Ley, y su Reglamento aprobado por Decreto Supremo N° 003-2013-JUS, en 
+    adelante el Reglamento; adoptando para ello las medidas de seguridad jurídicas, técnicas y organizativas 
+    necesarias para prevenir la pérdida, mal uso, alteración, acceso no autorizado y robo de los datos personales 
+    facilitados, habida cuenta del estado de la tecnología, la naturaleza de los datos y los riesgos a los que están 
+    expuestos.</p>
+    <div>
+      <img src="imagenes/mapa.png" width="400">
+    </div>
+    </div>
+</div>
+
+<!--contactenos-->
+ <div class="ventanaModal_contacto">
+    <label for="activaVentana_contacto" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+
+     <h1>Contactenos</h1>
+    <p >
+     En Ecological Business, crecer y mejorar son metas que solo podremos alcanzar gracias a sus aportes,
+      opiniones, reclamos y sugerencias. Por favor contáctese con nuestro Departamento de Servicio al Cliente,
+      donde será atendido con la rapidez, calidez y profesionalismo que distingue a nuestro personal.
+
+      Ecological Business, trabajamos continuamente por su salud y bienestar porque usted es lo más valioso.
+
+      Si desea ser atendido por alguno de nuestros especialistas, llame a los telófonos:
+      <b>315 9000 y opción 3</b>.
+
+      Si lo prefiere puede escribirnos a nuestro correo electrónico:
+      <b>Ecological_Business@gmail.com.pe</b>
+    </div>
+</div>
+
+<!--ayuda-->
+ <div class="ventanaModal_ayuda">
+    <label for="activaVentana_ayuda" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+ <h1>Ayuda</h1>
+    <h3>¿Nesecito registrame en EcologicalBusiness?</h3>
+    <p>Puedes buscar anuncios y ver las promociones en la página, pero si quieres hacer el pedido de algún servicio o comprara algunos de nuestros productos
+      que la pagina muestres, entonces deberás regístrate rápidamente haciendo click <a href="Registrarse.html"><strong>aqui</strong></a></p>
+    <h3>¿Qué tipos de pago puedo hacer al comprar una palta o solicitar un servicio?</h3>
+    <p>Al iniciar una compra online eligiendo al producto ya sea en catalogo o en promoción, podrá realizar diferentes pagos con tarjeta
+      o en efectivo al momento que recibe en su casa</p>
+    </div>
+</div>
+
+<!--calidad de servicio-->
+ <div class="ventanaModal_calidad">
+    <label for="activaVentana_calidad" id="cierraModal"> cerrar </label>
+    <div class="contenido_modal">
+<h1>Calidad del servicio</h1>
+    <p >En EcologicalBusiness te ofrecemos la mejor calidad de servicio,
+    pues nuestro objetivo es que Ud. se sienta satisfecho y cómodo con el servicio recibido.
+    Nosotros siempre estamos a su disposición y tenga la mejor experiencia comprando
+    sus plantas y solicitando servicio de jardinería </p>
+    </div>
+</div>
+
+
          </section>
-
-
-
 
          </footer>
 
