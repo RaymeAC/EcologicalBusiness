@@ -644,8 +644,8 @@ h3{
 top:0%;
 }
 .contenido_modal{
-    width: 100%;
-    min-height: 500px;
+    width: 700px;
+    min-height: 200px;
     background:  #177D66;
     color: white;
     padding: 30px;
@@ -667,19 +667,7 @@ top:0%;
     font-family: arial;
     border-radius: 10px;
 }
-/*.ventanaModal_web{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_web{
-    display: none;
-}*/
+
 #activaVentana_web:checked ~ .ventanaModal_web{
 top:0%;
 }
@@ -687,55 +675,16 @@ top:0%;
     margin-left:16%;
 }
 
-/*contactenos*/
-/*.ventanaModal_contacto{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_contacto{
-    display: none;
-}*/
+
 #activaVentana_contacto:checked ~ .ventanaModal_contacto{
 top:0%;
 }
 
-/*ayuda*/
-/*.ventanaModal_ayuda{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_ayuda{
-    display: none;
-}*/
+
 #activaVentana_ayuda:checked ~ .ventanaModal_ayuda{
 top:0%;
 }
-/*calidad de servicio*/
-/*.ventanaModal_calidad{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_calidad{
-    display: none;
-}*/
+
 #activaVentana_calidad:checked ~ .ventanaModal_calidad{
 top:0%;
 }
@@ -759,37 +708,11 @@ top:0%;
     background-color: rgba(18, 17, 19, 0.21);
     cursor: pointer;
 }
-/*contactenos*/
-/*.ventanaModal_contacto_1{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_contacto_1{
-    display: none;
-}*/
+
 #activaVentana_contacto_1:checked ~ .ventanaModal_contacto_1{
 top:0%;
 }
-/*ayuda*/
-/*.ventanaModal_ayuda_1{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_ayuda_1{
-    display: none;
-}*/
+
 #activaVentana_ayuda_1:checked ~ .ventanaModal_ayuda_1{
 top:0%;
 }
@@ -844,89 +767,23 @@ top:0%;
     
    }
 
-/*poda*/
-/*.ventanaModal_poda{
-    width: 90%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:2.5%;
-}*/
-/*#activaVentana_poda{
-    display: none;
-}*/
+
 #activaVentana_poda:checked ~ .ventanaModal_poda{
 top:0%;
 }
 
-/*servicio tecnico*/
-/*.ventanaModal_tecnico{
-    width: 90%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:2.5%;
-}*/
-/*#activaVentana_tecnico{
-    display: none;
-}*/
 #activaVentana_tecnico:checked ~ .ventanaModal_tecnico{
 top:0%;
 }
-/*como funciona*/
-/*.ventanaModal_como{
-    width: 90%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:2.5%;
-}*/
-/*#activaVentana_como{
-    display: none;
-}*/
+
 #activaVentana_como:checked ~ .ventanaModal_como{
 top:0%;
 }
-/*confia en nosotros*/
-/*.ventanaModal_confia, {
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_confia{
-    display: none;
-}*/
+
 #activaVentana_confia:checked ~ .ventanaModal_confia{
 top:0%;
 }
-/*equipo*/
-/*.ventanaModal_equipo{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}*/
-/*#activaVentana_equipo{
-    display: none;
-}*/
+
 #activaVentana_equipo:checked ~ .ventanaModal_equipo{
 top:0%;
 }
@@ -936,215 +793,6 @@ top:0%;
 
 
 
-
-
-
-
-
-/*VENTANA MODAL*/
- /*aviso legal*/
-
-#ligas-pie label{
-    text-decoration:none;
-    color:white;
-    cursor: pointer;
-}
-#centro label{
-    text-decoration:none;
-    color:white;
-    
-}
-
-
-#cierraModal{
-    display: block;
-    color: white;
-    font-size: 20px;
-    background:#AD0000;
-    margin-top: 30px;
-    margin-left: 90%;
-    text-align: center;
-    line-height: 11px;
-    width: 50px;
-    height: 15px;
-    cursor:pointer;
-    border-radius: 10px;    
-    padding: 10px;
-
-}
-#cierraModal:hover{
-    background-color:red;
-    cursor: pointer;
-}
-.ventanaModal_legal, .ventanaModal_web, .ventanaModal_ayuda, .ventanaModal_calidad, .ventanaModal_contacto_1, .ventanaModal_ayuda_1,.ventanaModal_contacto{
-    width: 75%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:12.5%;
-}
-#activaVentana_legal, #activaVentana_web, #activaVentana_ayuda, #activaVentana_contacto,#activaVentana_calidad, #activaVentana_contacto_1, #activaVentana_ayuda_1, #activaVentana_poda, #activaVentana_tecnico, #activaVentana_como, #activaVentana_confia, #activaVentana_equipo, #activaVentana_postCompra{
-    display: none;
-}
-#activaVentana_legal:checked ~ .ventanaModal_legal{
-top:0%;
-}
-.contenido_modal{
-    width: 700px;
-    min-height: 200px;
-    background:  #177D66;
-    color: white;
-    padding: 30px;
-    margin: auto;
-    font-size: 19px;
-    font-family: arial;
-    border-radius: 10px;
-}
-
-/*mapa web*/
-.contenido_web{
-    width: 800px;
-    min-height: 500px;
-    background:  #177D66;
-    color: white;
-    padding: 5px 15px 15px 15px;
-    margin: auto;
-    font-size: 16px;
-    font-family: arial;
-    border-radius: 10px;
-}
-
-#activaVentana_web:checked ~ .ventanaModal_web{
-top:0%;
-}
-.contenido_web img{
-    margin-left:23%;
-}
-
-/*contactenos*/
-
-#activaVentana_contacto:checked ~ .ventanaModal_contacto{
-top:0%;
-}
-
-/*ayuda*/
-
-#activaVentana_ayuda:checked ~ .ventanaModal_ayuda{
-top:0%;
-}
-/*calidad de servicio*/
-
-#activaVentana_calidad:checked ~ .ventanaModal_calidad{
-top:0%;
-}
-
-
- /*HEADER modales!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
- #centro ul  label{
-    display: block;
-    
-    color: #000;
-    
-    padding: 12px 17px;
-    text-decoration: none;
-    font-family: 'Francois One', sans-serif;
-}
-#centro .uls .submenu label:hover{
-    background-color: rgba(18, 17, 19, 0.21);
-    cursor: pointer;
-}
-#centro ul li  label:hover{
-    background-color: rgba(18, 17, 19, 0.21);
-    cursor: pointer;
-}
-/*contactenos*/
-
-#activaVentana_contacto_1:checked ~ .ventanaModal_contacto_1{
-top:0%;
-}
-/*ayuda*/
-
-#activaVentana_ayuda_1:checked ~ .ventanaModal_ayuda_1{
-top:0%;
-}
-
-/*servicio post compra*/
-.ventanaModal_postCompra, .ventanaModal_poda, .ventanaModal_tecnico, .ventanaModal_como, .ventanaModal_confia, .ventanaModal_equipo{
-    width: 90%;
-    height: 100%;
-    position: fixed;
-    top:-100%;
-    left: 0px;
-    background-color: rgba(217, 217, 217,0.7);
-    -webkit-transition:all 1s;
-    margin-left:2.5%;
-}
-
-#activaVentana_postCompra:checked ~ .ventanaModal_postCompra{
-top:0%;
-}
-
-
-    article{
-    text-align: center;
-    background-color: #fbfbfc;
-    border-bottom: 1px solid #e8e8e8;
-    padding: 20px 2;
-    }
-    article p{
-    font-size: 32px;
-    width: 470px;
-    margin: auto;
-    }
-    #tres{
-    font-size:20px;
-    border:1px solid;
-    background-color:#E6E6E6;
-    height:340px;
-
-    }
-    #Letras{ /*Modifica el texto escrito*/
-    width:550px;
-    float:left;
-    margin-left:10px;
-
-    }
-   .contenido_servicios{
-    width: 75%;
-    height: 100%;
-    margin:auto;
-    
-   }
-
-/*poda*/
-
-#activaVentana_poda:checked ~ .ventanaModal_poda{
-top:0%;
-}
-
-/*servicio tecnico*/
-
-#activaVentana_tecnico:checked ~ .ventanaModal_tecnico{
-top:0%;
-}
-/*como funciona*/
-
-#activaVentana_como:checked ~ .ventanaModal_como{
-top:0%;
-}
-/*confia en nosotros*/
-
-#activaVentana_confia:checked ~ .ventanaModal_confia{
-top:0%;
-}
-/*equipo*/
-
-#activaVentana_equipo:checked ~ .ventanaModal_equipo{
-top:0%;
-}
 
 
 
