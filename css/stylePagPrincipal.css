@@ -644,8 +644,8 @@ h3{
 top:0%;
 }
 .contenido_modal{
-    width: 700px;
-    min-height: 200px;
+    width: 100%;
+    min-height: 500px;
     background:  #177D66;
     color: white;
     padding: 30px;
@@ -978,7 +978,7 @@ top:0%;
 }
 .ventanaModal_legal, .ventanaModal_web, .ventanaModal_ayuda, .ventanaModal_calidad, .ventanaModal_contacto_1, .ventanaModal_ayuda_1,.ventanaModal_contacto{
     width: 75%;
-    height: 70%;
+    height: 100%;
     position: fixed;
     top:-100%;
     left: 0px;
